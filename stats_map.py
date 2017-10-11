@@ -1,3 +1,4 @@
+import os
 import re
 import datetime
 import sqlite3
@@ -5,7 +6,8 @@ from geoip import geolite2
 import attempt
 import timestamp
 
-LOGFILE = "auth.log"
+
+LOGFILE = os.path.abspath("/var/log/auth.log")
 DATE = datetime.datetime.now()
 
 
@@ -77,7 +79,7 @@ def isUnique(stamps, atm):
 def ipSummary(db):
     #Get IP stats
     uniq_ips = len(list(db.execute("SELECT DISTINCT IP FROM MARKERS")))
-    all_ips = list(db.execute("SELECT COUNT(*) FROM MARKERS"))[0][0]
+    all_ips = list(db.execute("SELECT COUNT(IP) FROM MARKERS"))[0][0]
     return "{} IPs / {} Attempts".format(uniq_ips, all_ips)
 
 def makeDB(db):
