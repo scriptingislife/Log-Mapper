@@ -106,14 +106,16 @@ def main():
                 insertAttempt(db, atm)
                 print(atm.summary())
             except AttributeError:
-                print("AttributeError. Skipping.")
+                print("AttributeError. Skipping. IP Address is {}".format(atm.ip))
                 continue
             except:
                 print("Unexpected Error. Skipping.")
                 continue
 
-    uniq_ips = len(set(getColumn(db, "IP")))
-    print("{} Unique IP Addresses".format(uniq_ips))
+    all_ips = list(getColumn(db, "IP"))
+    num_all_ips = len(all_ips)
+    uniq_ips = len(set(all_ips))
+    print("{} Unique IP Addresses. {} Attempts".format(uniq_ips, num_all_ips))
 
     #Write changes to db
     db.commit()
