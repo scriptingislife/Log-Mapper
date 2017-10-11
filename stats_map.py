@@ -61,7 +61,7 @@ def getColumn(db, col):
     return db.execute("SELECT {} from MARKERS".format(col))
 
 def getIPs(db):
-    ips = list(getColumn(db, "IP"))
+    ips = set(getColumn(db, "IP"))
     for ip in ips:
         print(ip[0])
     print("{} Unique IP Addresses".format(len(ips)))
@@ -102,10 +102,18 @@ def main():
     getAttempts(LOGFILE, attempts)
     for atm in attempts:
         if isUnique(stamps, atm):
-            insertAttempt(db, atm)
-            print(atm.summary())
+            try:
+                insertAttempt(db, atm)
+                print(atm.summary())
+            except AttributeError as (errno, strerror):
+                print("AttributeError ({}): {}".format(errno, strerror))
+                continue
+            except:
+                print("Unexpected Error:")
+                continue
 
-    #getIPs(db)
+    uniq_ips = len(set(getColumn(db, "IP")))
+    print("{} Unique IP Addresses".format(uniq_ips))
 
     #Write changes to db
     db.commit()
