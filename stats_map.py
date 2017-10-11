@@ -1,10 +1,9 @@
-import attempt
-import timestamp
 import re
 import datetime
 import sqlite3
 from geoip import geolite2
-#import geoip2
+import attempt
+import timestamp
 
 LOGFILE = "auth.log"
 DATE = datetime.datetime.now()
@@ -17,7 +16,7 @@ def getLineInfo(line):
     line_ips = re.findall(r'[0-9]+(?:\.[0-9]+){3}',line)
     if len(line_ips) != 0:
         spline = line.split()
-        
+
         month_hr = spline[0]
         day = spline[1]
         time = spline[2].split(":")
@@ -66,6 +65,8 @@ def getIPs(db):
         print(ip[0])
     print("{} Unique IP Addresses".format(len(ips)))
 
+def getCoordinates(db):
+    return db.execute("SELECT DISTINCT LATITUDE, LONGITUDE from MARKERS")
 
 def isUnique(stamps, atm):
     for stamp in stamps:
@@ -73,6 +74,11 @@ def isUnique(stamps, atm):
             return False
     return True
 
+def ipSummary(db):
+    #Get IP stats
+    uniq_ips = len(list(db.execute("SELECT DISTINCT IP FROM MARKERS")))
+    all_ips = list(db.execute("SELECT COUNT(*) FROM MARKERS"))[0][0]
+    return "{} IPs / {} Attempts".format(uniq_ips, all_ips)
 
 def makeDB(db):
         db.execute('''CREATE TABLE MARKERS
@@ -109,13 +115,10 @@ def main():
                 print("AttributeError. Skipping. IP Address is {}".format(atm.ip))
                 continue
             except:
-                print("Unexpected Error. Skipping.")
+                print("Unexpected Error. Skipping. IP Address is {}".format(atm.ip))
                 continue
 
-    all_ips = list(getColumn(db, "IP"))
-    num_all_ips = len(all_ips)
-    uniq_ips = len(set(all_ips))
-    print("{} Unique IP Addresses. {} Attempts".format(uniq_ips, num_all_ips))
+    print(ipSummary(db))
 
     #Write changes to db
     db.commit()
