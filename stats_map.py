@@ -105,11 +105,11 @@ def main():
             try:
                 insertAttempt(db, atm)
                 print(atm.summary())
-            except AttributeError as (errno, strerror):
-                print("AttributeError ({}): {}".format(errno, strerror))
+            except AttributeError:
+                print("AttributeError. Skipping.")
                 continue
             except:
-                print("Unexpected Error:")
+                print("Unexpected Error. Skipping.")
                 continue
 
     uniq_ips = len(set(getColumn(db, "IP")))
