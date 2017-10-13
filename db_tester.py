@@ -6,5 +6,9 @@ while True:
         command = raw_input(">")
         for line in db.execute(command):
             print(line)
-    except:
-        print("ERROR")
+    except KeyboardInterrupt:
+        break
+    except EOFError:
+        break
+    except sqlite3.OperationalError as e:
+        print("SQL ERROR: {}".format(e))

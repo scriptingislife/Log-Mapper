@@ -3,11 +3,15 @@ import re
 import datetime
 import sqlite3
 from geoip import geolite2
+import plotter
 import attempt
 import timestamp
 
 
-LOGFILE = os.path.abspath("/var/log/auth.log")
+LOGFILE = "auth.log"
+#Use real log file if on Linux
+#if os.name == "posix":
+#   LOGFILE = os.path.abspath("/var/log/auth.log")
 DATE = datetime.datetime.now()
 
 
@@ -52,7 +56,7 @@ def getAttempts(filename, lst_attempts):
             if atm == None:
                 continue
             lst_attempts.append(atm)
-            #print(atm.summary())
+            print(atm.summary())
 
 
 def insertAttempt(db, atm):
@@ -68,7 +72,13 @@ def getIPs(db):
     print("{} Unique IP Addresses".format(len(ips)))
 
 def getCoordinates(db):
-    return db.execute("SELECT DISTINCT LATITUDE, LONGITUDE from MARKERS")
+    lats = list()
+    lons = list()
+    db_coords = db.execute("SELECT DISTINCT LATITUDE, LONGITUDE from MARKERS")
+    for coord in db_coords:
+        lats.append(float(coord[0]))
+        lons.append(float(coord[1]))
+    return (lats, lons)
 
 def isUnique(stamps, atm):
     for stamp in stamps:
@@ -112,16 +122,22 @@ def main():
         if isUnique(stamps, atm):
             try:
                 insertAttempt(db, atm)
-                print(atm.summary())
-            except AttributeError:
-                print("AttributeError. Skipping. IP Address is {}".format(atm.ip))
+                #print(atm.summary())
+            except AttributeError as e:
+                print("AttributeError. Skipping. IP Address is {}\n{}".format(atm.ip, e))
                 continue
-            except:
-                print("Unexpected Error. Skipping. IP Address is {}".format(atm.ip))
+            except Exception as e:
+                print("Unexpected Error. Skipping. IP Address is {}\n{}".format(atm.ip, e))
                 continue
 
     print(ipSummary(db))
 
+    coords = getCoordinates(db)
+    lats = coords[0]
+    lons = coords[1]
+    plotter.plot(lats, lons)
+    print(lats)
+    print(lons)
     #Write changes to db
     db.commit()
 
