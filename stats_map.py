@@ -9,7 +9,7 @@ import timestamp
 
 
 LOGFILE = "auth.log"
-#Use real log file if on Linux
+#Use real log file if on Linux. Not cyg-win
 #if os.name == "posix":
 #   LOGFILE = os.path.abspath("/var/log/auth.log")
 DATE = datetime.datetime.now()
@@ -34,6 +34,11 @@ def getLineInfo(line):
     else:
         return None
 
+    #GeoIP Lookup
+    atm.lookup = geolite2.lookup(line_ips[0])
+    if atm.lookup == None:
+        return None
+
     #Determine if a failure or successful login
     if "fail" in line.lower():
         atm.success = 0
@@ -42,9 +47,6 @@ def getLineInfo(line):
     else:
         return None
     
-    #GeoIP Lookup
-    atm.lookup = geolite2.lookup(line_ips[0])
-
     return atm
 
 
@@ -70,6 +72,7 @@ def getIPs(db):
     for ip in ips:
         print(ip[0])
     print("{} Unique IP Addresses".format(len(ips)))
+
 
 def getCoordinates(db):
     lats = list()
@@ -133,11 +136,7 @@ def main():
     print(ipSummary(db))
 
     coords = getCoordinates(db)
-    lats = coords[0]
-    lons = coords[1]
-    plotter.plot(lats, lons)
-    print(lats)
-    print(lons)
+    plotter.plot(coords[0], coords[1])
     #Write changes to db
     db.commit()
 

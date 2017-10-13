@@ -21,6 +21,10 @@ class Attempt(object):
     ip = ""
     timestamp = None
     success = 0
+    #country = "UD"
+    #continent = "UD"
+    #latitude = 0.0
+    #longitude = 0.0
     lookup = None
 
     def __init__(self):
