@@ -15,7 +15,8 @@ except IOError:
 def plot(lats, lons):
     gmap = gmplot.GoogleMapPlotter(24.635246, 2.616971, 3)
     #gmap.heatmap(lats, lons)
-    gmap.scatter(lats, lons, '#3B0B39', 40, True)   
+    gmap.scatter(lats, lons, '#FF0000', 40, True)
+    print("Writing to {}".format(MAPFILE))
     gmap.draw(MAPFILE)
     insertapikey(MAPFILE, APIKEY)
 
