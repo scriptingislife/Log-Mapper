@@ -1,1 +1,4 @@
+sqlite3
 python-geoip-geolite2
+folium
+geojson
