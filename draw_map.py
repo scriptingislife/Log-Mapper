@@ -6,6 +6,7 @@ def draw():
     folium_map = folium.Map(location=[24.635246, 2.616971], zoom_start=3, tiles='CartoDB dark_matter')
 
     #Get markers and make_marker for each
+    #Doesn't include timestamp to get unique (DISTINCT) IP addresses
     stats = db.execute("SELECT DISTINCT IP, SUCCESS, COUNTRY, CONTINENT, LATITUDE, LONGITUDE from MARKERS")
     for stat in stats:
         ip = stat[0]
@@ -35,7 +36,15 @@ def make_marker(map, ip, success, country, continent, latitude, longitude):
 
     popup_text = popup_text.format(ip, success, country, continent, latitude, longitude)
 
-    folium.CircleMarker(location=[latitude, longitude], fill=True, popup=popup_text).add_to(map)
+    #Change marker color based on success/fail
+    #Default is blue
+    marker_color = "#3388ff"
+    if success == False:
+        marker_color = "#FA4848"
+    elif success == True:
+        marker_color == "#53F42E"
+
+    folium.CircleMarker(location=[latitude, longitude], color=marker_color, fill=True, popup=popup_text).add_to(map)
 
 if __name__ == "__main__":
     draw()
