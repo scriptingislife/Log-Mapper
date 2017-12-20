@@ -27,14 +27,13 @@ def draw():
 def make_marker(map, ip, success, country, continent, latitude, longitude):
     print("Making marker for: "+ str(ip))
     popup_text = """{}<br>
-                    Timestamp: {}<br>
                     Success: {}<br>
                     Country: {}<br>
                     Continent: {}<br>
                     Latitude: {}<br>
                     Longitude: {}<br>"""
 
-    popup_text = popup_text.format(ip, stamp, success, country, continent, latitude, longitude)
+    popup_text = popup_text.format(ip, success, country, continent, latitude, longitude)
 
     folium.CircleMarker(location=[latitude, longitude], fill=True, popup=popup_text).add_to(map)
 
