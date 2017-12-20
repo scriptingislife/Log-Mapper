@@ -6,7 +6,7 @@ from geoip import geolite2
 import plotter
 import attempt
 import timestamp
-
+import geojson
 
 LOGFILE = "auth.log"
 #Use real log file if on Linux. Not cyg-win
