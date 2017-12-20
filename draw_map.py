@@ -42,7 +42,7 @@ def make_marker(map, ip, success, country, continent, latitude, longitude):
     if success == False:
         marker_color = "#FA4848"
     elif success == True:
-        marker_color == "#53F42E"
+        marker_color = "#53F42E"
 
     folium.CircleMarker(location=[latitude, longitude], color=marker_color, fill=True, popup=popup_text).add_to(map)
 
