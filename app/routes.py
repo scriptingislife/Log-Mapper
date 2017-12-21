@@ -1,4 +1,4 @@
-from flask import render_template
+from flask import render_template, send_from_directory
 from app import app
 import shelve
 from os import path
@@ -45,3 +45,7 @@ def index():
 @app.route('/folium_map.html')
 def getMap():
     return render_template('folium_map.html')
+
+@app.route('/<path:path>')
+def catch_all(path):
+    return send_from_directory('templates', path)
