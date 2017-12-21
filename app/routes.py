@@ -9,8 +9,11 @@ STATS_DB = "stats.dict"
 @app.route('/map')
 def index():
 
-    stats = shelve.open(path.join(app.root_path, STATS_DB))
-    
+    try:
+        stats = shelve.open(path.join(app.root_path, STATS_DB))
+    except:
+        print("ERROR: Could not open STATS_DB")
+
     attempts = 0
     try:
         attempts = stats['total_attempts']

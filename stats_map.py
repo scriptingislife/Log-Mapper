@@ -98,7 +98,7 @@ def isUnique(stamps, atm):
 def ipSummary(db):
     #Get IP stats
     uniq_ips = len(list(db.execute("SELECT DISTINCT IP FROM MARKERS")))
-    all_ips = list(db.execute("SELECT COUNT(IP) FROM MARKERS"))[0][0    ]
+    all_ips = list(db.execute("SELECT COUNT(IP) FROM MARKERS"))[0][0]
     return "{} IPs / {} Attempts".format(uniq_ips, all_ips)
 
 def makeDB(db):
@@ -149,7 +149,9 @@ def main():
     db.close()
 
     plotter.plot(coords[0], coords[1])
-    draw_map.draw()
+
+    #Run stats_map with python2. Draw map with python3.
+    #draw_map.draw()
 
     gs.get(IP_DATABASE, gs.STATS_DATABASE)
 
