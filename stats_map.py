@@ -6,11 +6,13 @@ import re
 import datetime
 import sqlite3
 from geoip import geolite2
-#import plotter
 import attempt
 import timestamp
+
+#Unused imports
 #import get_stats as gs
 #import draw_map
+#import plotter
 #import geojson
 
 LOGFILE = "auth.log"
