@@ -3,11 +3,13 @@ from app import app
 import shelve
 from os import path
 
+STATS_DB = "stats.dict"
+
 @app.route('/')
 @app.route('/map')
 def index():
 
-    stats = shelve.open(path.join(app.root_path, "stats.dict"))
+    stats = shelve.open(path.join(app.root_path, STATS_DB))
     
     attempts = 0
     try:

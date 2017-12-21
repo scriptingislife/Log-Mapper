@@ -1,10 +1,10 @@
 ######
-#Get statistics for use in webpage
+#Get statistics for use in webpage and write to shelve database
 ######
 import sqlite3
 import shelve
 
-#SHELVE_DB = "app/stats"
+STATS_DATABASE = "app/stats,dict"
 
 def get_IPs(db):
     return int(list(db.execute("SELECT COUNT (DISTINCT IP) FROM MARKERS"))[0][0])
@@ -18,7 +18,7 @@ def get_attempts(db):
 def get(database, storage):
     get_db = sqlite3.connect(database)
 
-    stats = shelve.open(storage)
+    stats = shelve.open(STATS_DATABASE)
     stats['unique_ips'] = get_IPs(get_db)
     stats['unique_countries'] = get_countries(get_db)
     stats['total_attempts'] = get_attempts(get_db)

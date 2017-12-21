@@ -9,9 +9,12 @@ from geoip import geolite2
 import plotter
 import attempt
 import timestamp
+import get_stats as gs
+import draw_map
 import geojson
 
 LOGFILE = "auth.log"
+IP_DATABASE = "test.db"
 #Use real log file if on Linux. Not cyg-win
 #if os.name == "posix":
 #   LOGFILE = os.path.abspath("/var/log/auth.log")
@@ -111,7 +114,8 @@ def makeDB(db):
 
 
 def main():
-    db = sqlite3.connect("test.db")
+    db = sqlite3.connect(IP_DATABASE)
+    #Attempt to make database, suppress error if it already exists
     try:
         makeDB(db)
     except:
@@ -136,15 +140,21 @@ def main():
                 print("Unexpected Error. Skipping. IP Address is {}\n{}".format(atm.ip, e))
                 continue
 
-    print(ipSummary(db))
+    #print(ipSummary(db))
 
     coords = getCoordinates(db)
-    plotter.plot(coords[0], coords[1])
+
     #Write changes to db
     db.commit()
-
-
     db.close()
+
+    plotter.plot(coords[0], coords[1])
+    draw_map.draw()
+
+    gs.get(IP_DATABASE, gs.STATS_DATABASE)
+
+
+
 
 if __name__ == "__main__":
     main()
