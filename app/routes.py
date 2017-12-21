@@ -13,14 +13,15 @@ def index():
 
     try:
         stats = shelve.open(path.join(app.root_path, STATS_DB))
-    except:
+    except Exception as e:
         print("ERROR: Could not open STATS_DB")
+        print(e)
 
     attempts = 0
     try:
         attempts = stats['total_attempts']
-    except:
-        pass
+    except Exception as e:
+        print(e)
 
     ips = 0
     try:
