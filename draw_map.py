@@ -2,6 +2,7 @@
 #Create .html file using folium
 ######
 import folium
+from folium import plugins
 import sqlite3
 
 MAP_LOCATION = "app/templates/folium_map.html"
@@ -13,6 +14,10 @@ def draw():
     #Get markers and make_marker for each
     #Doesn't include timestamp to get unique (DISTINCT) IP addresses
     stats = db.execute("SELECT DISTINCT IP, SUCCESS, COUNTRY, CONTINENT, LATITUDE, LONGITUDE from MARKERS")
+    
+    lats = list()
+    lons = list()
+
     for stat in stats:
         ip = stat[0]
         success = stat[1]
@@ -25,9 +30,15 @@ def draw():
         elif success == 1:
             success = True
         
+        lats.append(latitude)
+        lons.append(longitude)
+
         make_marker(folium_map, ip, success, country, continent, latitude, longitude)
 
     folium_map.save(MAP_LOCATION)
+
+    plugins.HeatMap(zip(lats, lons)).add_to(folium_map)
+    folium_map.save("app/templates/heatmap.html")
 
 
 def make_marker(map, ip, success, country, continent, latitude, longitude):
@@ -49,7 +60,7 @@ def make_marker(map, ip, success, country, continent, latitude, longitude):
     elif success == True:
         marker_color = "#53F42E"
 
-    folium.CircleMarker(location=[latitude, longitude], color=marker_color, fill=True, popup=popup_text).add_to(map)
+    folium.CircleMarker(location=[latitude, longitude], color=marker_color, fill=True, popup=popup_text, radius=4).add_to(map)
 
 if __name__ == "__main__":
     draw()
