@@ -1,12 +1,13 @@
 from flask import render_template
 from app import app
 import shelve
+from os import path
 
 @app.route('/')
 @app.route('/map')
 def index():
 
-    stats = shelve.open("stats.dict")
+    stats = shelve.open(path.join(app.root_path, "stats.dict"))
     
     attempts = 0
     try:
