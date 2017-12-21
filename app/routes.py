@@ -34,7 +34,10 @@ def index():
     except:
         pass
 
-    stats.close()
+    try:
+        stats.close()
+    except:
+        pass
 
     return render_template('index.html', total_logins=attempts, unique_addresses=ips, unique_countries=countries)
 
