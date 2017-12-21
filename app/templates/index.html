@@ -3,26 +3,46 @@
     <head>
         <title>Map of Attempted SSH Logins</title>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            body {
+                position: fixed;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+            }
+            #map-frame {
+                width: 100%;
+                height: 90%;
+            }
+            #ic-refresh {
+                margin: 0 auto;
+                height: 40px;
+                width: auto;
+            }
+            .refresh {
+                padding-top: 20px;
+                padding-bottom: 5px;
+                vertical-align: middle;
+                float: left;
+            }
+        </style>
+        <script>
+            function refreshMap(){
+                document.getElementById("map-frame").contentDocument.location.reload(true);
+            }
+        </script>
     </head>
-    <style>
-        body {
-            position: fixed;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-        }
-        #map {
-            width: 100%;
-            height: 90%;
-        }
-    </style>
     <body>
         <h1>Map of Attempted SSH Logins</h1>
         <table class="w3-table w3-striped w3-border w3-centered">
             <tr><th>Attempted Logins</th><th>Unique IP Addresses</th><th>Unique Countries</th></tr>
             <tr><td>{{total_logins}}</td><td>{{unique_addresses}}<td>{{unique_countries}}</td></tr>
         </table>
-        <iframe id="map" src="folium_map.html"></iframe>
+        <div height>
+            <img class="refresh" id="ic-refresh" src="refresh.svg" onclick="refreshMap()" />
+            <!--<p class="refresh">Refresh</p>-->
+        </div>
+        <iframe id="map-frame" src="folium_map.html"></iframe>
     </body>
 </html>
