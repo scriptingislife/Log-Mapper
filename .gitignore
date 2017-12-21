@@ -1,10 +1,9 @@
 #Log-Mapper Specific
 *.pyc
 *.log
-*.html
 *.db
-*.sh
 *.key
+folium_map.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
