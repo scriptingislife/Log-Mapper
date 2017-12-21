@@ -11,7 +11,7 @@ import attempt
 import timestamp
 import get_stats as gs
 import draw_map
-import geojson
+#import geojson
 
 LOGFILE = "auth.log"
 IP_DATABASE = "test.db"
