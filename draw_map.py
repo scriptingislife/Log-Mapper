@@ -1,5 +1,10 @@
+######
+#Create .html file using folium
+######
 import folium
 import sqlite3
+
+MAP_LOCATION = "app/templates/folium_map.html"
 
 def draw():
     db = sqlite3.connect("test.db")
@@ -22,7 +27,7 @@ def draw():
         
         make_marker(folium_map, ip, success, country, continent, latitude, longitude)
 
-    folium_map.save("folium_map.html")
+    folium_map.save(MAP_LOCATION)
 
 
 def make_marker(map, ip, success, country, continent, latitude, longitude):

@@ -1,3 +1,8 @@
+########
+#
+#Deprecated in favor of stats_map.py
+#
+########
 import requests
 from bs4 import BeautifulSoup
 from time import sleep

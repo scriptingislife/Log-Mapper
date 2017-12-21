@@ -1,3 +1,6 @@
+#########
+#Create .html file using gmplot
+#########
 import gmplot
 from bs4 import BeautifulSoup
 
