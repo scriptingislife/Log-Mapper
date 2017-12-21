@@ -1,0 +1,1659 @@
+Dec 17 06:25:09 pijunior CRON[28799]: pam_unix(cron:session): session closed for user root
+Dec 17 06:43:46 pijunior sshd[29057]: reverse mapping checking getaddrinfo for pla75-1-78-194-48-145.fbxo.proxad.net [78.194.48.145] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 06:43:46 pijunior sshd[29059]: reverse mapping checking getaddrinfo for pla75-1-78-194-48-145.fbxo.proxad.net [78.194.48.145] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 06:43:46 pijunior sshd[29057]: Connection closed by 78.194.48.145 [preauth]
+Dec 17 06:43:46 pijunior sshd[29059]: Connection closed by 78.194.48.145 [preauth]
+Dec 17 06:47:01 pijunior CRON[29065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 06:47:06 pijunior CRON[29065]: pam_unix(cron:session): session closed for user root
+Dec 17 07:00:01 pijunior CRON[29092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 07:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 07:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 07:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 07:00:05 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 07:00:05 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 07:00:05 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 07:00:05 pijunior CRON[29092]: pam_unix(cron:session): session closed for user root
+Dec 17 07:02:18 pijunior sshd[29122]: Invalid user admin from 183.129.36.10
+Dec 17 07:02:18 pijunior sshd[29122]: input_userauth_request: invalid user admin [preauth]
+Dec 17 07:02:19 pijunior sshd[29122]: Disconnecting: Too many authentication failures for invalid user admin from 183.129.36.10 port 25294 ssh2 [preauth]
+Dec 17 07:17:01 pijunior CRON[29139]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 07:17:01 pijunior CRON[29139]: pam_unix(cron:session): session closed for user root
+Dec 17 07:33:43 pijunior sshd[29172]: reverse mapping checking getaddrinfo for 207-204-204-084.yourlink.ca [207.204.204.84] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 07:33:43 pijunior sshd[29171]: reverse mapping checking getaddrinfo for 207-204-204-084.yourlink.ca [207.204.204.84] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 07:33:43 pijunior sshd[29172]: Connection closed by 207.204.204.84 [preauth]
+Dec 17 07:33:43 pijunior sshd[29171]: Connection closed by 207.204.204.84 [preauth]
+Dec 17 07:41:44 pijunior sshd[29190]: Invalid user admin from 221.0.194.23
+Dec 17 07:41:44 pijunior sshd[29190]: input_userauth_request: invalid user admin [preauth]
+Dec 17 07:41:45 pijunior sshd[29190]: Disconnecting: Too many authentication failures for invalid user admin from 221.0.194.23 port 56428 ssh2 [preauth]
+Dec 17 08:00:01 pijunior CRON[29209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 08:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 08:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 08:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 08:00:07 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 08:00:07 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 08:00:07 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 08:00:07 pijunior CRON[29209]: pam_unix(cron:session): session closed for user root
+Dec 17 08:17:01 pijunior CRON[29256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 08:17:01 pijunior CRON[29256]: pam_unix(cron:session): session closed for user root
+Dec 17 09:00:01 pijunior CRON[29317]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 09:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 09:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 09:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 09:00:06 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 09:00:06 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 09:00:07 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 09:00:07 pijunior CRON[29317]: pam_unix(cron:session): session closed for user root
+Dec 17 09:01:18 pijunior sshd[29348]: reverse mapping checking getaddrinfo for 71.169.77.124.broad.xw.sh.dynamic.163data.com.cn [124.77.169.71] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 09:01:20 pijunior sshd[29348]: Disconnecting: Too many authentication failures for pi from 124.77.169.71 port 42207 ssh2 [preauth]
+Dec 17 09:17:01 pijunior CRON[29366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 09:17:01 pijunior CRON[29366]: pam_unix(cron:session): session closed for user root
+Dec 17 10:00:01 pijunior CRON[29426]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 10:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 10:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 10:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 10:00:06 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 10:00:06 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 10:00:06 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 10:00:06 pijunior CRON[29426]: pam_unix(cron:session): session closed for user root
+Dec 17 10:01:20 pijunior sshd[29456]: Received disconnect from 58.218.198.170: 11:  [preauth]
+Dec 17 10:17:01 pijunior CRON[29474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 10:17:01 pijunior CRON[29474]: pam_unix(cron:session): session closed for user root
+Dec 17 11:00:01 pijunior CRON[29533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 11:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 11:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 11:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 11:00:09 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 11:00:09 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 11:00:09 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 11:00:09 pijunior CRON[29533]: pam_unix(cron:session): session closed for user root
+Dec 17 11:17:01 pijunior CRON[29579]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 11:17:01 pijunior CRON[29579]: pam_unix(cron:session): session closed for user root
+Dec 17 11:22:24 pijunior sshd[29608]: Disconnecting: Too many authentication failures for root from 123.148.208.193 port 8279 ssh2 [preauth]
+Dec 17 12:00:01 pijunior CRON[29643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 12:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 12:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 12:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 12:00:08 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 12:00:09 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 12:00:09 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 12:00:09 pijunior CRON[29643]: pam_unix(cron:session): session closed for user root
+Dec 17 12:17:01 pijunior CRON[29688]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 12:17:01 pijunior CRON[29688]: pam_unix(cron:session): session closed for user root
+Dec 17 12:37:59 pijunior sshd[29732]: reverse mapping checking getaddrinfo for host222-255-dynamic.13-87-r.retail.telecomitalia.it [87.13.255.222] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 12:37:59 pijunior sshd[29732]: Invalid user admin from 87.13.255.222
+Dec 17 12:37:59 pijunior sshd[29732]: input_userauth_request: invalid user admin [preauth]
+Dec 17 12:38:00 pijunior sshd[29734]: reverse mapping checking getaddrinfo for host222-255-dynamic.13-87-r.retail.telecomitalia.it [87.13.255.222] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 12:38:00 pijunior sshd[29734]: Invalid user admin from 87.13.255.222
+Dec 17 12:38:00 pijunior sshd[29734]: input_userauth_request: invalid user admin [preauth]
+Dec 17 12:38:00 pijunior sshd[29732]: Disconnecting: Too many authentication failures for invalid user admin from 87.13.255.222 port 59844 ssh2 [preauth]
+Dec 17 12:38:01 pijunior sshd[29734]: Disconnecting: Too many authentication failures for invalid user admin from 87.13.255.222 port 59845 ssh2 [preauth]
+Dec 17 12:58:14 pijunior sshd[29755]: Invalid user  0101 from 5.101.40.10
+Dec 17 12:58:14 pijunior sshd[29755]: input_userauth_request: invalid user  0101 [preauth]
+Dec 17 12:58:14 pijunior sshd[29755]: Connection closed by 5.101.40.10 [preauth]
+Dec 17 12:58:23 pijunior sshd[29758]: Did not receive identification string from 5.101.40.10
+Dec 17 13:00:01 pijunior CRON[29759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 13:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 13:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 13:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 13:00:09 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 13:00:09 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 13:00:09 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 13:00:09 pijunior CRON[29759]: pam_unix(cron:session): session closed for user root
+Dec 17 13:17:01 pijunior CRON[29805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 13:17:01 pijunior CRON[29805]: pam_unix(cron:session): session closed for user root
+Dec 17 13:55:15 pijunior sshd[29865]: Invalid user ubnt from 177.129.247.131
+Dec 17 13:55:15 pijunior sshd[29865]: input_userauth_request: invalid user ubnt [preauth]
+Dec 17 13:55:16 pijunior sshd[29865]: Disconnecting: Too many authentication failures for invalid user ubnt from 177.129.247.131 port 3782 ssh2 [preauth]
+Dec 17 14:00:02 pijunior CRON[29869]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 14:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 14:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 14:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 14:00:12 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 14:00:12 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 14:00:12 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 14:00:13 pijunior CRON[29869]: pam_unix(cron:session): session closed for user root
+Dec 17 14:17:01 pijunior CRON[29914]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 14:17:01 pijunior CRON[29914]: pam_unix(cron:session): session closed for user root
+Dec 17 14:41:27 pijunior sshd[29958]: Connection closed by 191.211.253.44 [preauth]
+Dec 17 14:49:41 pijunior sshd[29974]: Invalid user admin from 182.38.112.211
+Dec 17 14:49:41 pijunior sshd[29974]: input_userauth_request: invalid user admin [preauth]
+Dec 17 14:49:43 pijunior sshd[29974]: Disconnecting: Too many authentication failures for invalid user admin from 182.38.112.211 port 50539 ssh2 [preauth]
+Dec 17 15:00:01 pijunior CRON[29979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 15:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 15:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 15:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 15:00:10 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 15:00:10 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 15:00:10 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 15:00:10 pijunior CRON[29979]: pam_unix(cron:session): session closed for user root
+Dec 17 15:06:40 pijunior sshd[30021]: Did not receive identification string from 146.83.111.30
+Dec 17 15:15:56 pijunior sshd[30024]: Received disconnect from 146.83.111.30: 11: Bye Bye [preauth]
+Dec 17 15:17:01 pijunior CRON[30026]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 15:17:01 pijunior CRON[30026]: pam_unix(cron:session): session closed for user root
+Dec 17 16:00:01 pijunior CRON[30085]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 16:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 16:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 16:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 16:00:09 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 16:00:09 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 16:00:09 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 16:00:09 pijunior CRON[30085]: pam_unix(cron:session): session closed for user root
+Dec 17 16:17:01 pijunior CRON[30134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 16:17:02 pijunior CRON[30134]: pam_unix(cron:session): session closed for user root
+Dec 17 16:22:05 pijunior sshd[30164]: Connection closed by 66.240.219.146 [preauth]
+Dec 17 16:22:08 pijunior sshd[30162]: Connection closed by 66.240.219.146 [preauth]
+Dec 17 17:00:01 pijunior CRON[30198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 17:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 17:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 17:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 17:00:09 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 17:00:09 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 17:00:09 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 17:00:09 pijunior CRON[30198]: pam_unix(cron:session): session closed for user root
+Dec 17 17:17:01 pijunior CRON[30244]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 17:17:01 pijunior CRON[30244]: pam_unix(cron:session): session closed for user root
+Dec 17 17:36:58 pijunior sshd[30287]: reverse mapping checking getaddrinfo for 186-133-134-157.speedy.com.ar [186.133.134.157] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 17:36:59 pijunior sshd[30287]: Disconnecting: Too many authentication failures for root from 186.133.134.157 port 50191 ssh2 [preauth]
+Dec 17 18:00:01 pijunior CRON[30305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 18:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 18:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 18:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 18:00:13 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 18:00:13 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 18:00:13 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 18:00:13 pijunior CRON[30305]: pam_unix(cron:session): session closed for user root
+Dec 17 18:13:39 pijunior sshd[30349]: Invalid user admin from 183.155.246.227
+Dec 17 18:13:39 pijunior sshd[30349]: input_userauth_request: invalid user admin [preauth]
+Dec 17 18:13:40 pijunior sshd[30349]: Disconnecting: Too many authentication failures for invalid user admin from 183.155.246.227 port 49148 ssh2 [preauth]
+Dec 17 18:17:01 pijunior CRON[30353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 18:17:01 pijunior CRON[30353]: pam_unix(cron:session): session closed for user root
+Dec 17 19:00:01 pijunior CRON[30411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 19:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 19:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 19:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 19:00:13 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 19:00:13 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 19:00:13 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 19:00:13 pijunior CRON[30411]: pam_unix(cron:session): session closed for user root
+Dec 17 19:00:42 pijunior sshd[30442]: Did not receive identification string from 202.83.17.22
+Dec 17 19:01:33 pijunior sshd[30443]: Disconnecting: Too many authentication failures for root from 117.40.138.21 port 4694 ssh2 [preauth]
+Dec 17 19:17:01 pijunior CRON[30461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 19:17:01 pijunior CRON[30461]: pam_unix(cron:session): session closed for user root
+Dec 17 19:18:43 pijunior sshd[30477]: Disconnecting: Too many authentication failures for root from 90.54.119.145 port 39343 ssh2 [preauth]
+Dec 17 19:50:40 pijunior sshd[30523]: reverse mapping checking getaddrinfo for 190-178-86-51.speedy.com.ar [190.178.86.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 19:50:40 pijunior sshd[30523]: Invalid user admin from 190.178.86.51
+Dec 17 19:50:40 pijunior sshd[30523]: input_userauth_request: invalid user admin [preauth]
+Dec 17 19:50:41 pijunior sshd[30523]: Disconnecting: Too many authentication failures for invalid user admin from 190.178.86.51 port 56450 ssh2 [preauth]
+Dec 17 20:00:02 pijunior CRON[30528]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 20:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 20:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 20:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 20:00:15 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 20:00:15 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 20:00:15 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 20:00:15 pijunior CRON[30528]: pam_unix(cron:session): session closed for user root
+Dec 17 20:17:01 pijunior CRON[30574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 20:17:01 pijunior CRON[30574]: pam_unix(cron:session): session closed for user root
+Dec 17 21:00:01 pijunior CRON[30823]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 21:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 21:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 21:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 21:00:12 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 21:00:12 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 21:00:12 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 21:00:12 pijunior CRON[30823]: pam_unix(cron:session): session closed for user root
+Dec 17 21:17:01 pijunior CRON[30867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 21:17:01 pijunior CRON[30867]: pam_unix(cron:session): session closed for user root
+Dec 17 21:37:11 pijunior sshd[30910]: reverse mapping checking getaddrinfo for unassigned.static.cust.vf.net.nz [203.109.195.9] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 21:37:14 pijunior sshd[30910]: Disconnecting: Too many authentication failures for root from 203.109.195.9 port 57168 ssh2 [preauth]
+Dec 17 22:00:01 pijunior CRON[30929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 22:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 22:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 22:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 22:00:14 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 22:00:14 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 22:00:14 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 22:00:14 pijunior CRON[30929]: pam_unix(cron:session): session closed for user root
+Dec 17 22:17:01 pijunior CRON[30973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 22:17:01 pijunior CRON[30973]: pam_unix(cron:session): session closed for user root
+Dec 17 22:31:02 pijunior sshd[31204]: Disconnecting: Too many authentication failures for root from 183.152.88.30 port 38823 ssh2 [preauth]
+Dec 17 23:00:01 pijunior CRON[31236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 23:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 17 23:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 23:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 23:00:13 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 17 23:00:13 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 17 23:00:13 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 17 23:00:13 pijunior CRON[31236]: pam_unix(cron:session): session closed for user root
+Dec 17 23:12:22 pijunior sshd[31280]: Disconnecting: Too many authentication failures for root from 112.151.228.30 port 54964 ssh2 [preauth]
+Dec 17 23:17:01 pijunior CRON[31283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 23:17:01 pijunior CRON[31283]: pam_unix(cron:session): session closed for user root
+Dec 17 23:31:53 pijunior sshd[31312]: reverse mapping checking getaddrinfo for 39.29.89.218.broad.zg.sc.dynamic.163data.com.cn [218.89.29.39] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 23:31:55 pijunior sshd[31312]: Disconnecting: Too many authentication failures for root from 218.89.29.39 port 39514 ssh2 [preauth]
+Dec 18 00:00:02 pijunior CRON[31344]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 00:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 00:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 00:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 00:00:16 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 00:00:16 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 00:00:16 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 00:00:16 pijunior CRON[31344]: pam_unix(cron:session): session closed for user root
+Dec 18 00:04:57 pijunior sshd[31374]: Received disconnect from 185.165.29.119: 11: Bye Bye [preauth]
+Dec 18 00:17:01 pijunior CRON[31392]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 00:17:01 pijunior CRON[31392]: pam_unix(cron:session): session closed for user root
+Dec 18 01:00:01 pijunior CRON[31452]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 01:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 01:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 01:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 01:00:14 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 01:00:14 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 01:00:14 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 01:00:14 pijunior CRON[31452]: pam_unix(cron:session): session closed for user root
+Dec 18 01:17:01 pijunior CRON[31496]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 01:17:01 pijunior CRON[31496]: pam_unix(cron:session): session closed for user root
+Dec 18 01:20:33 pijunior sshd[31513]: Invalid user admin from 65.99.177.138
+Dec 18 01:20:33 pijunior sshd[31513]: input_userauth_request: invalid user admin [preauth]
+Dec 18 01:20:34 pijunior sshd[31513]: Disconnecting: Too many authentication failures for invalid user admin from 65.99.177.138 port 41519 ssh2 [preauth]
+Dec 18 01:30:58 pijunior sshd[31530]: Connection closed by 64.32.79.153 [preauth]
+Dec 18 01:30:58 pijunior sshd[31531]: Connection closed by 64.32.79.153 [preauth]
+Dec 18 02:00:01 pijunior CRON[31567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 02:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 02:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 02:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 02:00:15 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 02:00:15 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 02:00:15 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 02:00:15 pijunior CRON[31567]: pam_unix(cron:session): session closed for user root
+Dec 18 02:17:01 pijunior CRON[31611]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 02:17:01 pijunior CRON[31611]: pam_unix(cron:session): session closed for user root
+Dec 18 03:00:02 pijunior CRON[31672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 03:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 03:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 03:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 03:00:16 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 03:00:16 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 03:00:16 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 03:00:16 pijunior CRON[31672]: pam_unix(cron:session): session closed for user root
+Dec 18 03:17:01 pijunior CRON[31718]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 03:17:01 pijunior CRON[31718]: pam_unix(cron:session): session closed for user root
+Dec 18 03:26:46 pijunior sshd[31748]: Invalid user  0101 from 5.101.40.10
+Dec 18 03:26:46 pijunior sshd[31748]: input_userauth_request: invalid user  0101 [preauth]
+Dec 18 03:26:47 pijunior sshd[31748]: Connection closed by 5.101.40.10 [preauth]
+Dec 18 03:26:54 pijunior sshd[31751]: Invalid user 0 from 5.101.40.10
+Dec 18 03:26:54 pijunior sshd[31751]: input_userauth_request: invalid user 0 [preauth]
+Dec 18 03:26:55 pijunior sshd[31751]: Connection closed by 5.101.40.10 [preauth]
+Dec 18 03:27:01 pijunior sshd[31754]: Invalid user 1234 from 5.101.40.10
+Dec 18 03:27:01 pijunior sshd[31754]: input_userauth_request: invalid user 1234 [preauth]
+Dec 18 03:27:01 pijunior sshd[31754]: Connection closed by 5.101.40.10 [preauth]
+Dec 18 03:27:07 pijunior sshd[31757]: Invalid user admin from 5.101.40.10
+Dec 18 03:27:07 pijunior sshd[31757]: input_userauth_request: invalid user admin [preauth]
+Dec 18 03:27:08 pijunior sshd[31757]: Connection closed by 5.101.40.10 [preauth]
+Dec 18 03:27:14 pijunior sshd[31760]: Invalid user admin from 5.101.40.10
+Dec 18 03:27:14 pijunior sshd[31760]: input_userauth_request: invalid user admin [preauth]
+Dec 18 03:27:21 pijunior sshd[31762]: Invalid user admin from 5.101.40.10
+Dec 18 03:27:21 pijunior sshd[31762]: input_userauth_request: invalid user admin [preauth]
+Dec 18 03:27:27 pijunior sshd[31762]: Connection closed by 5.101.40.10 [preauth]
+Dec 18 03:27:29 pijunior sshd[31765]: Invalid user admin from 5.101.40.10
+Dec 18 03:27:29 pijunior sshd[31765]: input_userauth_request: invalid user admin [preauth]
+Dec 18 03:27:31 pijunior sshd[31765]: Connection closed by 5.101.40.10 [preauth]
+Dec 18 03:27:38 pijunior sshd[31768]: Invalid user default from 5.101.40.10
+Dec 18 03:27:38 pijunior sshd[31768]: input_userauth_request: invalid user default [preauth]
+Dec 18 03:27:39 pijunior sshd[31768]: Connection closed by 5.101.40.10 [preauth]
+Dec 18 03:27:47 pijunior sshd[31771]: Invalid user ftp from 5.101.40.10
+Dec 18 03:27:47 pijunior sshd[31771]: input_userauth_request: invalid user ftp [preauth]
+Dec 18 03:27:48 pijunior sshd[31771]: Connection closed by 5.101.40.10 [preauth]
+Dec 18 03:27:56 pijunior sshd[31774]: Did not receive identification string from 5.101.40.10
+Dec 18 04:00:01 pijunior CRON[31805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 04:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 04:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 04:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:00:15 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 04:00:15 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 04:00:15 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:00:15 pijunior CRON[31805]: pam_unix(cron:session): session closed for user root
+Dec 18 04:09:05 pijunior sshd[31849]: Accepted publickey for pi from 129.21.131.219 port 18966 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 18 04:09:05 pijunior sshd[31849]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 18 04:09:05 pijunior systemd-logind[386]: New session c4 of user pi.
+Dec 18 04:09:05 pijunior systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Dec 18 04:10:38 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt remove python-pip
+Dec 18 04:10:38 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:10:43 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:10:45 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt remove python-pip
+Dec 18 04:10:45 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:11:07 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:11:27 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install python-setuptools
+Dec 18 04:11:27 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:11:31 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:12:58 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install python-pip
+Dec 18 04:12:58 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:13:23 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:13:52 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt remove python-pip
+Dec 18 04:13:52 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:14:37 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:15:03 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/easy_install pip
+Dec 18 04:15:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:15:54 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:16:05 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/local/bin/pip
+Dec 18 04:16:05 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:16:12 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:16:21 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/easy_install
+Dec 18 04:16:21 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:16:23 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:16:26 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/easy_install --help
+Dec 18 04:16:26 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:16:28 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:17:01 pijunior CRON[32647]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 04:17:01 pijunior CRON[32647]: pam_unix(cron:session): session closed for user root
+Dec 18 04:18:15 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/local/bin/pip install folium
+Dec 18 04:18:15 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:18:53 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 04:19:08 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/local/bin/pip install pandas
+Dec 18 04:19:09 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 04:20:44 pijunior sshd[32746]: Received disconnect from 58.218.198.175: 11:  [preauth]
+Dec 18 04:21:20 pijunior sshd[333]: Received disconnect from 58.218.198.175: 11:  [preauth]
+Dec 18 05:00:01 pijunior CRON[1031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 05:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 05:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 05:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 05:00:33 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 05:00:33 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 05:00:33 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 05:00:34 pijunior CRON[1031]: pam_unix(cron:session): session closed for user root
+Dec 18 05:02:00 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 05:02:04 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 18 05:02:04 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 05:03:34 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 05:03:56 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install screen
+Dec 18 05:03:56 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 05:04:33 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 05:08:15 pijunior sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install gfortran
+Dec 18 05:08:15 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 05:08:57 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 05:17:01 pijunior CRON[2162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 05:17:01 pijunior CRON[2162]: pam_unix(cron:session): session closed for user root
+Dec 18 05:25:08 pijunior sshd[2251]: Disconnecting: Too many authentication failures for root from 117.62.190.246 port 60584 ssh2 [preauth]
+Dec 18 05:31:06 pijunior sshd[31861]: Received disconnect from 129.21.131.219: 11: disconnected by user
+Dec 18 05:31:06 pijunior sshd[31849]: pam_unix(sshd:session): session closed for user pi
+Dec 18 05:34:46 pijunior sshd[2339]: Accepted publickey for pi from 129.21.131.219 port 20824 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 18 05:34:47 pijunior sshd[2339]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 18 05:34:47 pijunior systemd-logind[386]: New session c5 of user pi.
+Dec 18 05:35:01 pijunior sshd[2345]: Received disconnect from 129.21.131.219: 11: disconnected by user
+Dec 18 05:35:01 pijunior sshd[2339]: pam_unix(sshd:session): session closed for user pi
+Dec 18 05:35:01 pijunior systemd-logind[386]: Removed session c5.
+Dec 18 06:00:01 pijunior CRON[2511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 06:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 06:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 06:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 06:00:34 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 06:00:34 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 06:00:34 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 06:00:34 pijunior CRON[2511]: pam_unix(cron:session): session closed for user root
+Dec 18 06:17:01 pijunior CRON[2582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 06:17:01 pijunior CRON[2582]: pam_unix(cron:session): session closed for user root
+Dec 18 06:17:01 pijunior sshd[2580]: Disconnecting: Too many authentication failures for root from 58.249.54.22 port 46194 ssh2 [preauth]
+Dec 18 06:25:01 pijunior CRON[2640]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 06:25:20 pijunior CRON[2640]: pam_unix(cron:session): session closed for user root
+Dec 18 07:00:01 pijunior CRON[2870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 07:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 07:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 07:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 07:00:34 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 07:00:34 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 07:00:34 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 07:00:34 pijunior CRON[2870]: pam_unix(cron:session): session closed for user root
+Dec 18 07:17:01 pijunior CRON[2931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 07:17:01 pijunior CRON[2931]: pam_unix(cron:session): session closed for user root
+Dec 18 08:00:01 pijunior CRON[3019]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 08:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 08:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 08:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 08:00:37 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 08:00:37 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 08:00:37 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 08:00:37 pijunior CRON[3019]: pam_unix(cron:session): session closed for user root
+Dec 18 08:17:01 pijunior CRON[3089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 08:17:01 pijunior CRON[3089]: pam_unix(cron:session): session closed for user root
+Dec 18 08:26:58 pijunior sshd[3127]: Connection closed by 183.196.177.221 [preauth]
+Dec 18 09:00:01 pijunior CRON[3201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 09:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 09:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 09:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 09:00:32 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 09:00:32 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 09:00:32 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 09:00:32 pijunior CRON[3201]: pam_unix(cron:session): session closed for user root
+Dec 18 09:17:01 pijunior CRON[3274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 09:17:01 pijunior CRON[3274]: pam_unix(cron:session): session closed for user root
+Dec 18 10:00:01 pijunior CRON[4031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 10:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 10:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 10:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 10:00:38 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 10:00:38 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 10:00:38 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 10:00:38 pijunior CRON[4031]: pam_unix(cron:session): session closed for user root
+Dec 18 10:17:01 pijunior CRON[4115]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 10:17:02 pijunior CRON[4115]: pam_unix(cron:session): session closed for user root
+Dec 18 10:30:43 pijunior sshd[4156]: Disconnecting: Too many authentication failures for root from 218.5.173.200 port 55109 ssh2 [preauth]
+Dec 18 11:00:01 pijunior CRON[4189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 11:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 11:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 11:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 11:00:19 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 11:00:19 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 11:00:20 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 11:00:20 pijunior CRON[4189]: pam_unix(cron:session): session closed for user root
+Dec 18 11:17:01 pijunior CRON[4234]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 11:17:01 pijunior CRON[4234]: pam_unix(cron:session): session closed for user root
+Dec 18 11:25:25 pijunior sshd[4264]: Disconnecting: Too many authentication failures for root from 113.229.15.161 port 21704 ssh2 [preauth]
+Dec 18 11:51:40 pijunior sshd[4298]: Received disconnect from 58.218.198.161: 11:  [preauth]
+Dec 18 12:00:01 pijunior CRON[4302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 12:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 12:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 12:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 12:00:19 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 12:00:19 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 12:00:19 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 12:00:19 pijunior CRON[4302]: pam_unix(cron:session): session closed for user root
+Dec 18 12:17:01 pijunior CRON[4347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 12:17:01 pijunior CRON[4347]: pam_unix(cron:session): session closed for user root
+Dec 18 13:00:01 pijunior CRON[4408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 13:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 13:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 13:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 13:00:20 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 13:00:20 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 13:00:20 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 13:00:20 pijunior CRON[4408]: pam_unix(cron:session): session closed for user root
+Dec 18 13:17:01 pijunior CRON[4455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 13:17:01 pijunior CRON[4455]: pam_unix(cron:session): session closed for user root
+Dec 18 13:25:43 pijunior sshd[4484]: reverse mapping checking getaddrinfo for bd650b1e.virtua.com.br [189.101.11.30] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 18 13:25:43 pijunior sshd[4484]: Disconnecting: Too many authentication failures for root from 189.101.11.30 port 36440 ssh2 [preauth]
+Dec 18 13:59:40 pijunior sshd[4518]: reverse mapping checking getaddrinfo for 186-129-120-95.speedy.com.ar [186.129.120.95] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 18 13:59:42 pijunior sshd[4518]: Disconnecting: Too many authentication failures for root from 186.129.120.95 port 47569 ssh2 [preauth]
+Dec 18 14:00:01 pijunior CRON[4521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 14:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 14:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 14:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 14:00:23 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 14:00:23 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 14:00:23 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 14:00:23 pijunior CRON[4521]: pam_unix(cron:session): session closed for user root
+Dec 18 14:17:01 pijunior CRON[4567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 14:17:01 pijunior CRON[4567]: pam_unix(cron:session): session closed for user root
+Dec 18 14:37:34 pijunior sshd[4611]: Disconnecting: Too many authentication failures for root from 65.186.80.188 port 43719 ssh2 [preauth]
+Dec 18 15:00:01 pijunior CRON[4629]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 15:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 15:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 15:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 15:00:23 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 15:00:23 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 15:00:23 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 15:00:23 pijunior CRON[4629]: pam_unix(cron:session): session closed for user root
+Dec 18 15:17:01 pijunior CRON[4674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 15:17:01 pijunior CRON[4674]: pam_unix(cron:session): session closed for user root
+Dec 18 15:52:52 pijunior sshd[4732]: Connection closed by 71.6.146.185 [preauth]
+Dec 18 15:52:53 pijunior sshd[4734]: Connection closed by 71.6.146.185 [preauth]
+Dec 18 15:57:24 pijunior sshd[4738]: Received disconnect from 58.218.198.161: 11:  [preauth]
+Dec 18 16:00:01 pijunior CRON[4741]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 16:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 16:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 16:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 16:00:19 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 16:00:19 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 16:00:19 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 16:00:19 pijunior CRON[4741]: pam_unix(cron:session): session closed for user root
+Dec 18 16:17:01 pijunior CRON[4790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 16:17:01 pijunior CRON[4790]: pam_unix(cron:session): session closed for user root
+Dec 18 16:38:03 pijunior sshd[4834]: reverse mapping checking getaddrinfo for 143.78.211.181.static.anycast.cnt-grms.ec [181.211.78.143] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 18 16:38:03 pijunior sshd[4834]: Invalid user admin from 181.211.78.143
+Dec 18 16:38:03 pijunior sshd[4834]: input_userauth_request: invalid user admin [preauth]
+Dec 18 16:38:04 pijunior sshd[4834]: Disconnecting: Too many authentication failures for invalid user admin from 181.211.78.143 port 57081 ssh2 [preauth]
+Dec 18 16:48:04 pijunior sshd[4838]: reverse mapping checking getaddrinfo for 142.79.214.190.static.anycast.cnt-grms.ec [190.214.79.142] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 18 16:48:05 pijunior sshd[4838]: Disconnecting: Too many authentication failures for root from 190.214.79.142 port 38664 ssh2 [preauth]
+Dec 18 17:00:01 pijunior CRON[4856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 17:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 17:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 17:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 17:00:22 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 17:00:22 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 17:00:22 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 17:00:22 pijunior CRON[4856]: pam_unix(cron:session): session closed for user root
+Dec 18 17:17:01 pijunior CRON[4901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 17:17:01 pijunior CRON[4901]: pam_unix(cron:session): session closed for user root
+Dec 18 17:57:05 pijunior sshd[4959]: Disconnecting: Too many authentication failures for root from 119.27.172.18 port 52198 ssh2 [preauth]
+Dec 18 18:00:01 pijunior CRON[4963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 18:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 18:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 18:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 18:00:23 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 18:00:23 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 18:00:23 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 18:00:23 pijunior CRON[4963]: pam_unix(cron:session): session closed for user root
+Dec 18 18:04:16 pijunior sshd[4993]: Accepted publickey for pi from 129.21.131.219 port 26881 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 18 18:04:16 pijunior sshd[4993]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 18 18:04:16 pijunior systemd-logind[386]: New session c6 of user pi.
+Dec 18 18:04:26 pijunior sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/local/bin/pip install --upgrade pandas -vvv
+Dec 18 18:04:26 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 18 18:12:22 pijunior sshd[5475]: reverse mapping checking getaddrinfo for host-41.236.211.200.tedata.net [41.236.211.200] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 18 18:12:23 pijunior sshd[5475]: Disconnecting: Too many authentication failures for root from 41.236.211.200 port 50824 ssh2 [preauth]
+Dec 18 18:17:01 pijunior CRON[5539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 18:17:01 pijunior CRON[5539]: pam_unix(cron:session): session closed for user root
+Dec 18 18:28:17 pijunior sshd[5000]: Received disconnect from 129.21.131.219: 11: disconnected by user
+Dec 18 18:28:17 pijunior sshd[4993]: pam_unix(sshd:session): session closed for user pi
+Dec 18 18:28:18 pijunior systemd-logind[386]: Removed session c6.
+Dec 18 18:40:09 pijunior sshd[5773]: Accepted publickey for pi from 129.21.131.219 port 27428 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 18 18:40:09 pijunior sshd[5773]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 18 18:40:09 pijunior systemd-logind[386]: New session c7 of user pi.
+Dec 18 18:52:20 pijunior sshd[5779]: Received disconnect from 129.21.131.219: 11: disconnected by user
+Dec 18 18:52:20 pijunior sshd[5773]: pam_unix(sshd:session): session closed for user pi
+Dec 18 18:52:21 pijunior systemd-logind[386]: Removed session c7.
+Dec 18 19:00:01 pijunior CRON[5865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 19:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 19:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 19:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 19:00:45 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 19:00:45 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 19:00:45 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 19:00:45 pijunior CRON[5865]: pam_unix(cron:session): session closed for user root
+Dec 18 19:06:35 pijunior sshd[5908]: Connection closed by 187.118.94.201 [preauth]
+Dec 18 19:11:55 pijunior sshd[5927]: Disconnecting: Too many authentication failures for root from 122.38.119.166 port 47474 ssh2 [preauth]
+Dec 18 19:17:01 pijunior CRON[5942]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 19:17:01 pijunior CRON[5942]: pam_unix(cron:session): session closed for user root
+Dec 18 20:00:01 pijunior CRON[6022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 20:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 20:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 20:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 20:00:48 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 20:00:48 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 20:00:49 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 20:00:49 pijunior CRON[6022]: pam_unix(cron:session): session closed for user root
+Dec 18 20:08:54 pijunior sshd[6065]: Disconnecting: Too many authentication failures for root from 119.193.140.171 port 53337 ssh2 [preauth]
+Dec 18 20:17:01 pijunior CRON[6069]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 20:17:01 pijunior CRON[6069]: pam_unix(cron:session): session closed for user root
+Dec 18 20:27:32 pijunior sshd[6105]: Received disconnect from 111.230.172.49: 11: Bye Bye [preauth]
+Dec 18 21:00:01 pijunior CRON[6184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 21:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 21:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 21:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 21:00:46 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 21:00:46 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 21:00:46 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 21:00:46 pijunior CRON[6184]: pam_unix(cron:session): session closed for user root
+Dec 18 21:05:04 pijunior sshd[6214]: Bad protocol version identification '' from 185.35.63.111 port 39526
+Dec 18 21:17:01 pijunior CRON[6253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 21:17:01 pijunior CRON[6253]: pam_unix(cron:session): session closed for user root
+Dec 18 21:17:41 pijunior sshd[6281]: Accepted publickey for pi from 129.21.131.219 port 29676 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 18 21:17:42 pijunior sshd[6281]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 18 21:17:42 pijunior systemd-logind[386]: New session c8 of user pi.
+Dec 18 21:17:53 pijunior sshd[6287]: Received disconnect from 129.21.131.219: 11: disconnected by user
+Dec 18 21:17:53 pijunior sshd[6281]: pam_unix(sshd:session): session closed for user pi
+Dec 18 21:17:53 pijunior systemd-logind[386]: Removed session c8.
+Dec 18 22:00:01 pijunior CRON[6383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 22:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 22:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 22:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 22:00:49 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 22:00:49 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 22:00:49 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 22:00:49 pijunior CRON[6383]: pam_unix(cron:session): session closed for user root
+Dec 18 22:17:01 pijunior CRON[6960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 22:17:01 pijunior CRON[6960]: pam_unix(cron:session): session closed for user root
+Dec 18 22:24:44 pijunior sshd[7240]: Accepted publickey for pi from 129.21.131.219 port 30533 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 18 22:24:44 pijunior sshd[7240]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 18 22:24:44 pijunior systemd-logind[386]: New session c9 of user pi.
+Dec 18 22:25:26 pijunior sshd[7248]: Received disconnect from 129.21.131.219: 11: disconnected by user
+Dec 18 22:25:26 pijunior sshd[7240]: pam_unix(sshd:session): session closed for user pi
+Dec 18 22:25:26 pijunior systemd-logind[386]: Removed session c9.
+Dec 18 22:50:02 pijunior sshd[7411]: Disconnecting: Too many authentication failures for root from 221.124.73.78 port 48528 ssh2 [preauth]
+Dec 18 22:57:52 pijunior sshd[7439]: Disconnecting: Too many authentication failures for root from 78.15.98.157 port 49716 ssh2 [preauth]
+Dec 18 23:00:01 pijunior CRON[7463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 23:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 18 23:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 23:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 23:00:48 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 18 23:00:48 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 18 23:00:48 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 23:00:48 pijunior CRON[7463]: pam_unix(cron:session): session closed for user root
+Dec 18 23:12:47 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 18 23:14:34 pijunior sshd[7520]: Accepted publickey for pi from 129.21.131.219 port 31479 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 18 23:14:34 pijunior sshd[7520]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 18 23:14:34 pijunior systemd-logind[386]: New session c10 of user pi.
+Dec 18 23:15:06 pijunior sshd[7526]: Received disconnect from 129.21.131.219: 11: disconnected by user
+Dec 18 23:15:06 pijunior sshd[7520]: pam_unix(sshd:session): session closed for user pi
+Dec 18 23:15:06 pijunior systemd-logind[386]: Removed session c10.
+Dec 18 23:17:01 pijunior CRON[7546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 23:17:02 pijunior CRON[7546]: pam_unix(cron:session): session closed for user root
+Dec 19 00:00:01 pijunior CRON[7605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 00:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 00:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 00:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 00:00:26 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 00:00:26 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 00:00:26 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 00:00:26 pijunior CRON[7605]: pam_unix(cron:session): session closed for user root
+Dec 19 00:17:01 pijunior CRON[7649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 00:17:01 pijunior CRON[7649]: pam_unix(cron:session): session closed for user root
+Dec 19 01:00:01 pijunior CRON[7709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 01:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 01:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 01:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 01:00:27 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 01:00:27 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 01:00:27 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 01:00:27 pijunior CRON[7709]: pam_unix(cron:session): session closed for user root
+Dec 19 01:17:01 pijunior CRON[7756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 01:17:01 pijunior CRON[7756]: pam_unix(cron:session): session closed for user root
+Dec 19 02:00:02 pijunior CRON[7817]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 02:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 02:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 02:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 02:00:26 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 02:00:26 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 02:00:26 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 02:00:26 pijunior CRON[7817]: pam_unix(cron:session): session closed for user root
+Dec 19 02:03:10 pijunior sshd[7847]: Did not receive identification string from 191.21.76.1
+Dec 19 02:17:01 pijunior CRON[7862]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 02:17:01 pijunior CRON[7862]: pam_unix(cron:session): session closed for user root
+Dec 19 02:58:28 pijunior sshd[7922]: Connection closed by 5.101.40.10 [preauth]
+Dec 19 03:00:01 pijunior CRON[7926]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 03:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 03:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 03:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 03:00:25 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 03:00:25 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 03:00:25 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 03:00:25 pijunior CRON[7926]: pam_unix(cron:session): session closed for user root
+Dec 19 03:16:16 pijunior sshd[7971]: Received disconnect from 23.92.86.200: 11: Bye Bye [preauth]
+Dec 19 03:17:01 pijunior CRON[7973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 03:17:01 pijunior CRON[7973]: pam_unix(cron:session): session closed for user root
+Dec 19 03:23:07 pijunior sshd[8004]: Received disconnect from 58.218.198.167: 11:  [preauth]
+Dec 19 04:00:01 pijunior CRON[8038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 04:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 04:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 04:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 04:00:27 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 04:00:27 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 04:00:27 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 04:00:27 pijunior CRON[8038]: pam_unix(cron:session): session closed for user root
+Dec 19 04:06:17 pijunior sshd[8070]: Disconnecting: Too many authentication failures for root from 185.98.208.217 port 47061 ssh2 [preauth]
+Dec 19 04:13:34 pijunior sshd[8086]: Invalid user admin from 78.203.248.197
+Dec 19 04:13:34 pijunior sshd[8086]: input_userauth_request: invalid user admin [preauth]
+Dec 19 04:13:34 pijunior sshd[8086]: Disconnecting: Too many authentication failures for invalid user admin from 78.203.248.197 port 44396 ssh2 [preauth]
+Dec 19 04:17:01 pijunior CRON[8090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 04:17:01 pijunior CRON[8090]: pam_unix(cron:session): session closed for user root
+Dec 19 04:26:59 pijunior sshd[8119]: Invalid user admin from 202.205.131.40
+Dec 19 04:26:59 pijunior sshd[8119]: input_userauth_request: invalid user admin [preauth]
+Dec 19 04:27:01 pijunior sshd[8119]: Disconnecting: Too many authentication failures for invalid user admin from 202.205.131.40 port 60890 ssh2 [preauth]
+Dec 19 05:00:01 pijunior CRON[8152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 05:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 05:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 05:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 05:00:25 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 05:00:25 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 05:00:25 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 05:00:26 pijunior CRON[8152]: pam_unix(cron:session): session closed for user root
+Dec 19 05:17:01 pijunior CRON[8197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 05:17:01 pijunior CRON[8197]: pam_unix(cron:session): session closed for user root
+Dec 19 05:17:28 pijunior sshd[8213]: Invalid user admin from 114.33.171.104
+Dec 19 05:17:28 pijunior sshd[8213]: input_userauth_request: invalid user admin [preauth]
+Dec 19 05:17:29 pijunior sshd[8213]: Disconnecting: Too many authentication failures for invalid user admin from 114.33.171.104 port 55228 ssh2 [preauth]
+Dec 19 05:21:11 pijunior sshd[8216]: Invalid user admin from 91.126.205.238
+Dec 19 05:21:11 pijunior sshd[8216]: input_userauth_request: invalid user admin [preauth]
+Dec 19 05:21:12 pijunior sshd[8216]: Disconnecting: Too many authentication failures for invalid user admin from 91.126.205.238 port 57955 ssh2 [preauth]
+Dec 19 05:31:55 pijunior sshd[8234]: Invalid user admin from 58.218.200.24
+Dec 19 05:31:55 pijunior sshd[8234]: input_userauth_request: invalid user admin [preauth]
+Dec 19 05:31:56 pijunior sshd[8234]: Received disconnect from 58.218.200.24: 11: disconnect [preauth]
+Dec 19 06:00:01 pijunior CRON[8268]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 06:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 06:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 06:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 06:00:27 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 06:00:27 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 06:00:27 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 06:00:27 pijunior CRON[8268]: pam_unix(cron:session): session closed for user root
+Dec 19 06:09:58 pijunior sshd[8312]: Did not receive identification string from 93.76.209.244
+Dec 19 06:17:01 pijunior CRON[8315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 06:17:01 pijunior CRON[8315]: pam_unix(cron:session): session closed for user root
+Dec 19 06:21:01 pijunior sshd[8332]: Did not receive identification string from 93.76.209.244
+Dec 19 06:21:01 pijunior sshd[8333]: fatal: no matching cipher found: client aes128-cbc,3des-cbc,aes256-cbc,aes192-cbc server aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com [preauth]
+Dec 19 06:21:44 pijunior sshd[8347]: Did not receive identification string from 93.76.209.244
+Dec 19 06:21:45 pijunior sshd[8348]: fatal: no matching cipher found: client aes128-cbc,3des-cbc,aes256-cbc,aes192-cbc server aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com [preauth]
+Dec 19 06:22:27 pijunior sshd[8350]: Did not receive identification string from 93.76.209.244
+Dec 19 06:22:28 pijunior sshd[8351]: fatal: no matching cipher found: client aes128-cbc,3des-cbc,aes256-cbc,aes192-cbc server aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com [preauth]
+Dec 19 06:23:11 pijunior sshd[8353]: Did not receive identification string from 93.76.209.244
+Dec 19 06:23:11 pijunior sshd[8354]: fatal: no matching cipher found: client aes128-cbc,3des-cbc,aes256-cbc,aes192-cbc server aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com [preauth]
+Dec 19 06:23:54 pijunior sshd[8356]: Did not receive identification string from 93.76.209.244
+Dec 19 06:23:55 pijunior sshd[8357]: fatal: no matching cipher found: client aes128-cbc,3des-cbc,aes256-cbc,aes192-cbc server aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com [preauth]
+Dec 19 06:25:01 pijunior CRON[8360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 06:25:11 pijunior CRON[8360]: pam_unix(cron:session): session closed for user root
+Dec 19 06:34:26 pijunior sshd[8540]: Invalid user  0101 from 5.101.40.10
+Dec 19 06:34:26 pijunior sshd[8540]: input_userauth_request: invalid user  0101 [preauth]
+Dec 19 06:34:28 pijunior sshd[8540]: Connection closed by 5.101.40.10 [preauth]
+Dec 19 06:34:36 pijunior sshd[8543]: Did not receive identification string from 5.101.40.10
+Dec 19 07:00:01 pijunior CRON[8573]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 07:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 07:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 07:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 07:00:27 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 07:00:27 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 07:00:27 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 07:00:27 pijunior CRON[8573]: pam_unix(cron:session): session closed for user root
+Dec 19 07:17:01 pijunior CRON[8618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 07:17:01 pijunior CRON[8618]: pam_unix(cron:session): session closed for user root
+Dec 19 07:22:57 pijunior sshd[8647]: Invalid user admin from 175.114.192.117
+Dec 19 07:22:57 pijunior sshd[8647]: input_userauth_request: invalid user admin [preauth]
+Dec 19 07:22:58 pijunior sshd[8647]: Disconnecting: Too many authentication failures for invalid user admin from 175.114.192.117 port 42035 ssh2 [preauth]
+Dec 19 08:00:01 pijunior CRON[8680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 08:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 08:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 08:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 08:00:28 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 08:00:28 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 08:00:28 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 08:00:28 pijunior CRON[8680]: pam_unix(cron:session): session closed for user root
+Dec 19 08:17:01 pijunior CRON[8725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 08:17:01 pijunior CRON[8725]: pam_unix(cron:session): session closed for user root
+Dec 19 08:40:50 pijunior sshd[8769]: Invalid user admin from 113.67.166.2
+Dec 19 08:40:50 pijunior sshd[8769]: input_userauth_request: invalid user admin [preauth]
+Dec 19 08:40:52 pijunior sshd[8769]: Disconnecting: Too many authentication failures for invalid user admin from 113.67.166.2 port 58764 ssh2 [preauth]
+Dec 19 09:00:01 pijunior CRON[8787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 09:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 09:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 09:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 09:00:27 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 09:00:27 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 09:00:27 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 09:00:27 pijunior CRON[8787]: pam_unix(cron:session): session closed for user root
+Dec 19 09:17:01 pijunior CRON[8832]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 09:17:01 pijunior CRON[8832]: pam_unix(cron:session): session closed for user root
+Dec 19 10:00:01 pijunior CRON[8892]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 10:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 10:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 10:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 10:00:28 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 10:00:28 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 10:00:28 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 10:00:28 pijunior CRON[8892]: pam_unix(cron:session): session closed for user root
+Dec 19 10:17:01 pijunior CRON[8938]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 10:17:01 pijunior CRON[8938]: pam_unix(cron:session): session closed for user root
+Dec 19 10:41:55 pijunior sshd[8982]: Invalid user admin from 222.220.92.148
+Dec 19 10:41:55 pijunior sshd[8982]: input_userauth_request: invalid user admin [preauth]
+Dec 19 10:41:57 pijunior sshd[8982]: Disconnecting: Too many authentication failures for invalid user admin from 222.220.92.148 port 55384 ssh2 [preauth]
+Dec 19 11:00:01 pijunior CRON[9001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 11:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 11:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 11:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 11:00:29 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 11:00:29 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 11:00:29 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 11:00:29 pijunior CRON[9001]: pam_unix(cron:session): session closed for user root
+Dec 19 11:01:08 pijunior sshd[9031]: Invalid user admin from 113.215.210.66
+Dec 19 11:01:08 pijunior sshd[9031]: input_userauth_request: invalid user admin [preauth]
+Dec 19 11:01:10 pijunior sshd[9031]: Disconnecting: Too many authentication failures for invalid user admin from 113.215.210.66 port 57560 ssh2 [preauth]
+Dec 19 11:17:01 pijunior CRON[9048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 11:17:01 pijunior CRON[9048]: pam_unix(cron:session): session closed for user root
+Dec 19 11:45:42 pijunior sshd[9093]: Disconnecting: Too many authentication failures for pi from 187.61.105.235 port 3726 ssh2 [preauth]
+Dec 19 11:53:11 pijunior sshd[9110]: Connection closed by 139.170.248.251 [preauth]
+Dec 19 12:00:01 pijunior CRON[9113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 12:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 12:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 12:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 12:00:29 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 12:00:29 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 12:00:29 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 12:00:29 pijunior CRON[9113]: pam_unix(cron:session): session closed for user root
+Dec 19 12:17:01 pijunior CRON[9158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 12:17:01 pijunior CRON[9158]: pam_unix(cron:session): session closed for user root
+Dec 19 12:45:07 pijunior sshd[9204]: reverse mapping checking getaddrinfo for 123.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.123] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 19 12:45:07 pijunior sshd[9204]: Received disconnect from 218.65.30.123: 11:  [preauth]
+Dec 19 13:00:01 pijunior CRON[9221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 13:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 13:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 13:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 13:00:32 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 13:00:32 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 13:00:32 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 13:00:32 pijunior CRON[9221]: pam_unix(cron:session): session closed for user root
+Dec 19 13:09:54 pijunior sshd[9264]: Connection closed by 223.97.109.75 [preauth]
+Dec 19 13:17:01 pijunior CRON[9267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 13:17:01 pijunior CRON[9267]: pam_unix(cron:session): session closed for user root
+Dec 19 13:18:29 pijunior sshd[9284]: reverse mapping checking getaddrinfo for b39f2ee8.virtua.com.br [179.159.46.232] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 19 13:18:29 pijunior sshd[9284]: Invalid user admin from 179.159.46.232
+Dec 19 13:18:29 pijunior sshd[9284]: input_userauth_request: invalid user admin [preauth]
+Dec 19 13:18:30 pijunior sshd[9284]: Disconnecting: Too many authentication failures for invalid user admin from 179.159.46.232 port 39867 ssh2 [preauth]
+Dec 19 13:25:33 pijunior sshd[9300]: reverse mapping checking getaddrinfo for hn.kd.ny.adsl [182.127.133.35] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 19 13:25:33 pijunior sshd[9300]: Invalid user ubnt from 182.127.133.35
+Dec 19 13:25:33 pijunior sshd[9300]: input_userauth_request: invalid user ubnt [preauth]
+Dec 19 13:25:34 pijunior sshd[9300]: Disconnecting: Too many authentication failures for invalid user ubnt from 182.127.133.35 port 53497 ssh2 [preauth]
+Dec 19 14:00:01 pijunior CRON[9334]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 14:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 14:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 14:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 14:00:31 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 14:00:31 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 14:00:31 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 14:00:31 pijunior CRON[9334]: pam_unix(cron:session): session closed for user root
+Dec 19 14:17:01 pijunior CRON[9378]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 14:17:01 pijunior CRON[9378]: pam_unix(cron:session): session closed for user root
+Dec 19 14:42:58 pijunior sshd[9422]: Invalid user admin from 193.218.141.22
+Dec 19 14:42:58 pijunior sshd[9422]: input_userauth_request: invalid user admin [preauth]
+Dec 19 14:42:59 pijunior sshd[9422]: Disconnecting: Too many authentication failures for invalid user admin from 193.218.141.22 port 56314 ssh2 [preauth]
+Dec 19 15:00:01 pijunior CRON[9438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 15:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 15:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 15:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 15:00:34 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 15:00:34 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 15:00:34 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 15:00:34 pijunior CRON[9438]: pam_unix(cron:session): session closed for user root
+Dec 19 15:17:01 pijunior CRON[9484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 15:17:01 pijunior CRON[9484]: pam_unix(cron:session): session closed for user root
+Dec 19 15:18:17 pijunior sshd[9500]: Disconnecting: Too many authentication failures for root from 5.74.178.46 port 44871 ssh2 [preauth]
+Dec 19 16:00:01 pijunior CRON[9545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 16:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 16:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 16:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 16:00:31 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 16:00:31 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 16:00:31 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 16:00:31 pijunior CRON[9545]: pam_unix(cron:session): session closed for user root
+Dec 19 16:17:01 pijunior CRON[9593]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 16:17:01 pijunior CRON[9593]: pam_unix(cron:session): session closed for user root
+Dec 19 16:43:47 pijunior sshd[9638]: Address 113.53.141.30 maps to node-2la.pool-113-53.dynamic.totbb.net, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec 19 16:43:50 pijunior sshd[9638]: Disconnecting: Too many authentication failures for root from 113.53.141.30 port 40146 ssh2 [preauth]
+Dec 19 16:44:37 pijunior sshd[9641]: Disconnecting: Too many authentication failures for root from 101.81.10.186 port 45828 ssh2 [preauth]
+Dec 19 17:00:01 pijunior CRON[9659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 17:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 17:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 17:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 17:00:31 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 17:00:31 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 17:00:31 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 17:00:31 pijunior CRON[9659]: pam_unix(cron:session): session closed for user root
+Dec 19 17:17:01 pijunior CRON[9704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 17:17:01 pijunior CRON[9704]: pam_unix(cron:session): session closed for user root
+Dec 19 18:00:01 pijunior CRON[9764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 18:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 18:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 18:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 18:00:34 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 18:00:34 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 18:00:34 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 18:00:34 pijunior CRON[9764]: pam_unix(cron:session): session closed for user root
+Dec 19 18:17:01 pijunior CRON[9809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 18:17:01 pijunior CRON[9809]: pam_unix(cron:session): session closed for user root
+Dec 19 19:00:02 pijunior CRON[9866]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 19:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 19:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 19:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 19:00:34 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 19:00:34 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 19:00:34 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 19:00:34 pijunior CRON[9866]: pam_unix(cron:session): session closed for user root
+Dec 19 19:17:01 pijunior CRON[9911]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 19:17:01 pijunior CRON[9911]: pam_unix(cron:session): session closed for user root
+Dec 19 19:34:08 pijunior sshd[9941]: Disconnecting: Too many authentication failures for root from 157.0.155.219 port 53995 ssh2 [preauth]
+Dec 19 19:58:53 pijunior sshd[9976]: Did not receive identification string from 5.101.40.10
+Dec 19 20:00:01 pijunior CRON[9977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 20:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 20:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 20:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 20:00:33 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 20:00:33 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 20:00:33 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 20:00:33 pijunior CRON[9977]: pam_unix(cron:session): session closed for user root
+Dec 19 20:03:40 pijunior sshd[10007]: Connection closed by 141.212.122.176 [preauth]
+Dec 19 20:14:34 pijunior sshd[10023]: reverse mapping checking getaddrinfo for hn.kd.jz.adsl [221.15.147.112] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 19 20:14:35 pijunior sshd[10023]: Disconnecting: Too many authentication failures for root from 221.15.147.112 port 57044 ssh2 [preauth]
+Dec 19 20:17:01 pijunior CRON[10027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 20:17:01 pijunior CRON[10027]: pam_unix(cron:session): session closed for user root
+Dec 19 21:00:01 pijunior CRON[10086]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 21:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 21:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 21:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 21:00:34 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 21:00:34 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 21:00:34 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 21:00:34 pijunior CRON[10086]: pam_unix(cron:session): session closed for user root
+Dec 19 21:11:26 pijunior sshd[10130]: Connection closed by 118.33.75.186 [preauth]
+Dec 19 21:11:27 pijunior sshd[10133]: Invalid user ethos from 118.33.75.186
+Dec 19 21:11:27 pijunior sshd[10133]: input_userauth_request: invalid user ethos [preauth]
+Dec 19 21:11:27 pijunior sshd[10133]: Connection closed by 118.33.75.186 [preauth]
+Dec 19 21:17:01 pijunior CRON[10137]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 21:17:01 pijunior CRON[10137]: pam_unix(cron:session): session closed for user root
+Dec 19 21:38:04 pijunior sshd[10181]: Invalid user admin from 195.66.217.68
+Dec 19 21:38:04 pijunior sshd[10181]: input_userauth_request: invalid user admin [preauth]
+Dec 19 21:38:05 pijunior sshd[10181]: Disconnecting: Too many authentication failures for invalid user admin from 195.66.217.68 port 58344 ssh2 [preauth]
+Dec 19 22:00:01 pijunior CRON[10200]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 22:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 22:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 22:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 22:00:36 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 22:00:36 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 22:00:36 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 22:00:36 pijunior CRON[10200]: pam_unix(cron:session): session closed for user root
+Dec 19 22:04:48 pijunior sshd[10230]: Bad protocol version identification 'GET /manager/html HTTP/1.1' from 183.131.83.229 port 1090
+Dec 19 22:17:01 pijunior CRON[10246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 22:17:01 pijunior CRON[10246]: pam_unix(cron:session): session closed for user root
+Dec 19 23:00:01 pijunior CRON[10493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 23:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 19 23:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 23:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 23:00:34 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 19 23:00:34 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 23:00:34 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 23:00:34 pijunior CRON[10493]: pam_unix(cron:session): session closed for user root
+Dec 19 23:17:01 pijunior CRON[10539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 23:17:01 pijunior CRON[10539]: pam_unix(cron:session): session closed for user root
+Dec 19 23:34:20 pijunior sshd[10578]: Connection closed by 153.142.22.193 [preauth]
+Dec 20 00:00:01 pijunior CRON[10607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 00:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 00:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 00:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 00:00:36 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 00:00:36 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 00:00:36 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 00:00:36 pijunior CRON[10607]: pam_unix(cron:session): session closed for user root
+Dec 20 00:17:01 pijunior CRON[10652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 00:17:01 pijunior CRON[10652]: pam_unix(cron:session): session closed for user root
+Dec 20 01:00:01 pijunior CRON[10712]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 01:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 01:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 01:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 01:00:33 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 01:00:33 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 01:00:33 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 01:00:33 pijunior CRON[10712]: pam_unix(cron:session): session closed for user root
+Dec 20 01:17:01 pijunior CRON[10758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 01:17:01 pijunior CRON[10758]: pam_unix(cron:session): session closed for user root
+Dec 20 02:00:01 pijunior CRON[10819]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 02:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 02:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 02:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 02:00:32 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 02:00:32 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 02:00:32 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 02:00:32 pijunior CRON[10819]: pam_unix(cron:session): session closed for user root
+Dec 20 02:14:08 pijunior sshd[10864]: reverse mapping checking getaddrinfo for static.221-132-75-236.nexg.net [221.132.75.236] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 02:14:09 pijunior sshd[10864]: Disconnecting: Too many authentication failures for root from 221.132.75.236 port 59453 ssh2 [preauth]
+Dec 20 02:17:01 pijunior CRON[10867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 02:17:01 pijunior CRON[10867]: pam_unix(cron:session): session closed for user root
+Dec 20 02:56:47 pijunior sshd[10925]: Disconnecting: Too many authentication failures for root from 66.79.162.50 port 50408 ssh2 [preauth]
+Dec 20 03:00:02 pijunior CRON[10929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 03:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 03:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 03:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 03:00:37 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 03:00:37 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 03:00:38 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 03:00:38 pijunior CRON[10929]: pam_unix(cron:session): session closed for user root
+Dec 20 03:17:01 pijunior CRON[10974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 03:17:01 pijunior CRON[10974]: pam_unix(cron:session): session closed for user root
+Dec 20 03:25:17 pijunior sshd[11004]: Received disconnect from 58.218.198.175: 11:  [preauth]
+Dec 20 04:00:01 pijunior CRON[11037]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 04:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 04:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 04:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 04:00:35 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 04:00:35 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 04:00:35 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 04:00:35 pijunior CRON[11037]: pam_unix(cron:session): session closed for user root
+Dec 20 04:01:16 pijunior sshd[11067]: Disconnecting: Too many authentication failures for root from 94.34.247.170 port 44298 ssh2 [preauth]
+Dec 20 04:17:01 pijunior CRON[11085]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 04:17:01 pijunior CRON[11085]: pam_unix(cron:session): session closed for user root
+Dec 20 04:19:27 pijunior sshd[11102]: Connection closed by 169.1.29.183 [preauth]
+Dec 20 04:40:55 pijunior sshd[11131]: reverse mapping checking getaddrinfo for 201-254-80-217.speedy.com.ar [201.254.80.217] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 04:40:56 pijunior sshd[11131]: Disconnecting: Too many authentication failures for root from 201.254.80.217 port 50498 ssh2 [preauth]
+Dec 20 04:58:34 pijunior sshd[11151]: Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]
+Dec 20 05:00:01 pijunior CRON[11153]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 05:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 05:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 05:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 05:00:37 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 05:00:37 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 05:00:37 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 05:00:37 pijunior CRON[11153]: pam_unix(cron:session): session closed for user root
+Dec 20 05:00:46 pijunior sshd[11183]: Disconnecting: Too many authentication failures for root from 118.112.108.31 port 34779 ssh2 [preauth]
+Dec 20 05:17:01 pijunior CRON[11201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 05:17:01 pijunior CRON[11201]: pam_unix(cron:session): session closed for user root
+Dec 20 06:00:01 pijunior CRON[11261]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 06:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 06:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 06:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 06:00:36 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 06:00:36 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 06:00:36 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 06:00:36 pijunior CRON[11261]: pam_unix(cron:session): session closed for user root
+Dec 20 06:17:01 pijunior CRON[11305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 06:17:01 pijunior CRON[11305]: pam_unix(cron:session): session closed for user root
+Dec 20 06:25:01 pijunior CRON[11334]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 06:25:08 pijunior CRON[11334]: pam_unix(cron:session): session closed for user root
+Dec 20 06:26:25 pijunior sshd[11515]: Disconnecting: Too many authentication failures for root from 119.193.140.186 port 36123 ssh2 [preauth]
+Dec 20 07:00:01 pijunior CRON[11549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 07:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 07:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 07:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 07:00:37 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 07:00:37 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 07:00:37 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 07:00:37 pijunior CRON[11549]: pam_unix(cron:session): session closed for user root
+Dec 20 07:17:01 pijunior CRON[11594]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 07:17:01 pijunior CRON[11594]: pam_unix(cron:session): session closed for user root
+Dec 20 07:41:01 pijunior sshd[11639]: reverse mapping checking getaddrinfo for 96.90.143.122.adsl-pool.jlccptt.net.cn [122.143.90.96] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 07:41:02 pijunior sshd[11639]: Disconnecting: Too many authentication failures for root from 122.143.90.96 port 39612 ssh2 [preauth]
+Dec 20 07:52:15 pijunior sshd[11656]: Disconnecting: Too many authentication failures for root from 24.6.117.55 port 50360 ssh2 [preauth]
+Dec 20 08:00:01 pijunior CRON[11661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 08:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 08:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 08:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 08:00:37 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 08:00:37 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 08:00:37 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 08:00:37 pijunior CRON[11661]: pam_unix(cron:session): session closed for user root
+Dec 20 08:11:57 pijunior sshd[11705]: reverse mapping checking getaddrinfo for 245.120.211.181.static.anycast.cnt-grms.ec [181.211.120.245] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 08:11:57 pijunior sshd[11705]: Invalid user admin from 181.211.120.245
+Dec 20 08:11:57 pijunior sshd[11705]: input_userauth_request: invalid user admin [preauth]
+Dec 20 08:11:58 pijunior sshd[11705]: Disconnecting: Too many authentication failures for invalid user admin from 181.211.120.245 port 39792 ssh2 [preauth]
+Dec 20 08:17:01 pijunior CRON[11709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 08:17:02 pijunior CRON[11709]: pam_unix(cron:session): session closed for user root
+Dec 20 08:19:01 pijunior sshd[11725]: reverse mapping checking getaddrinfo for sc-hosting-67-211-186-47.sumnercomm.net [67.211.186.47] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 08:19:01 pijunior sshd[11725]: Invalid user admin from 67.211.186.47
+Dec 20 08:19:01 pijunior sshd[11725]: input_userauth_request: invalid user admin [preauth]
+Dec 20 08:19:01 pijunior sshd[11725]: Disconnecting: Too many authentication failures for invalid user admin from 67.211.186.47 port 55186 ssh2 [preauth]
+Dec 20 08:26:51 pijunior sshd[11741]: reverse mapping checking getaddrinfo for 84.148.178.60.broad.nb.zj.dynamic.163data.com.cn [60.178.148.84] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 08:26:53 pijunior sshd[11741]: Disconnecting: Too many authentication failures for root from 60.178.148.84 port 43637 ssh2 [preauth]
+Dec 20 08:26:57 pijunior sshd[11744]: Connection closed by 155.4.255.138 [preauth]
+Dec 20 08:27:00 pijunior sshd[11747]: Invalid user ethos from 155.4.255.138
+Dec 20 08:27:00 pijunior sshd[11747]: input_userauth_request: invalid user ethos [preauth]
+Dec 20 08:27:00 pijunior sshd[11747]: Connection closed by 155.4.255.138 [preauth]
+Dec 20 09:00:01 pijunior CRON[11781]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 09:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 09:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 09:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 09:00:38 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 09:00:38 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 09:00:38 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 09:00:38 pijunior CRON[11781]: pam_unix(cron:session): session closed for user root
+Dec 20 09:17:01 pijunior CRON[11825]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 09:17:01 pijunior CRON[11825]: pam_unix(cron:session): session closed for user root
+Dec 20 10:00:01 pijunior CRON[11886]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 10:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 10:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 10:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 10:00:42 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 10:00:42 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 10:00:43 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 10:00:43 pijunior CRON[11886]: pam_unix(cron:session): session closed for user root
+Dec 20 10:15:00 pijunior sshd[11930]: Connection closed by 54.149.106.224 [preauth]
+Dec 20 10:15:00 pijunior sshd[11932]: fatal: no hostkey alg [preauth]
+Dec 20 10:15:01 pijunior sshd[11934]: fatal: no hostkey alg [preauth]
+Dec 20 10:15:03 pijunior sshd[11936]: Connection closed by 54.149.106.224 [preauth]
+Dec 20 10:15:04 pijunior sshd[11938]: Connection closed by 54.149.106.224 [preauth]
+Dec 20 10:17:01 pijunior CRON[11940]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 10:17:01 pijunior CRON[11940]: pam_unix(cron:session): session closed for user root
+Dec 20 10:25:56 pijunior sshd[11970]: Did not receive identification string from 191.179.24.159
+Dec 20 10:27:40 pijunior sshd[11971]: Disconnecting: Too many authentication failures for root from 2.177.173.179 port 60281 ssh2 [preauth]
+Dec 20 10:35:46 pijunior sshd[11975]: Invalid user  0101 from 5.101.40.10
+Dec 20 10:35:46 pijunior sshd[11975]: input_userauth_request: invalid user  0101 [preauth]
+Dec 20 10:35:47 pijunior sshd[11975]: Connection closed by 5.101.40.10 [preauth]
+Dec 20 10:35:54 pijunior sshd[11978]: Did not receive identification string from 5.101.40.10
+Dec 20 10:39:46 pijunior sshd[11991]: Invalid user mother from 151.66.7.13
+Dec 20 10:39:46 pijunior sshd[11991]: input_userauth_request: invalid user mother [preauth]
+Dec 20 10:39:47 pijunior sshd[11991]: Disconnecting: Too many authentication failures for invalid user mother from 151.66.7.13 port 33504 ssh2 [preauth]
+Dec 20 11:00:01 pijunior CRON[12010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 11:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 11:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 11:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 11:00:40 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 11:00:40 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 11:00:40 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 11:00:40 pijunior CRON[12010]: pam_unix(cron:session): session closed for user root
+Dec 20 11:17:01 pijunior CRON[12054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 11:17:01 pijunior CRON[12054]: pam_unix(cron:session): session closed for user root
+Dec 20 11:22:56 pijunior sshd[12083]: Received disconnect from 58.218.198.162: 11:  [preauth]
+Dec 20 11:50:29 pijunior sshd[12102]: Disconnecting: Too many authentication failures for root from 124.135.113.16 port 51069 ssh2 [preauth]
+Dec 20 12:00:01 pijunior CRON[12119]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 12:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 12:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 12:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 12:00:42 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 12:00:42 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 12:00:42 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 12:00:42 pijunior CRON[12119]: pam_unix(cron:session): session closed for user root
+Dec 20 12:17:01 pijunior CRON[12163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 12:17:01 pijunior CRON[12163]: pam_unix(cron:session): session closed for user root
+Dec 20 12:18:32 pijunior sshd[12180]: Connection closed by 191.201.160.41 [preauth]
+Dec 20 12:46:49 pijunior sshd[12211]: reverse mapping checking getaddrinfo for hn.kd.pix [219.155.27.220] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 12:46:49 pijunior sshd[12211]: Invalid user admin from 219.155.27.220
+Dec 20 12:46:49 pijunior sshd[12211]: input_userauth_request: invalid user admin [preauth]
+Dec 20 12:46:51 pijunior sshd[12211]: Disconnecting: Too many authentication failures for invalid user admin from 219.155.27.220 port 34017 ssh2 [preauth]
+Dec 20 13:00:01 pijunior CRON[12229]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 13:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 13:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 13:00:40 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 13:00:40 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 13:00:41 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 13:00:41 pijunior CRON[12229]: pam_unix(cron:session): session closed for user root
+Dec 20 13:17:01 pijunior CRON[12277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:17:01 pijunior CRON[12277]: pam_unix(cron:session): session closed for user root
+Dec 20 13:46:15 pijunior sshd[12323]: Disconnecting: Too many authentication failures for root from 46.173.81.32 port 58353 ssh2 [preauth]
+Dec 20 14:00:01 pijunior CRON[12341]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 14:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 14:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 14:00:44 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 14:00:44 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 14:00:44 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 14:00:44 pijunior CRON[12341]: pam_unix(cron:session): session closed for user root
+Dec 20 14:09:35 pijunior sshd[12384]: Invalid user admin from 136.26.33.194
+Dec 20 14:09:35 pijunior sshd[12384]: input_userauth_request: invalid user admin [preauth]
+Dec 20 14:09:36 pijunior sshd[12384]: Disconnecting: Too many authentication failures for invalid user admin from 136.26.33.194 port 46906 ssh2 [preauth]
+Dec 20 14:14:32 pijunior sshd[12388]: reverse mapping checking getaddrinfo for 186.3.189.118.static.m1net.com.sg [118.189.3.186] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 14:14:33 pijunior sshd[12388]: Disconnecting: Too many authentication failures for root from 118.189.3.186 port 44243 ssh2 [preauth]
+Dec 20 14:17:01 pijunior CRON[12392]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:17:01 pijunior CRON[12392]: pam_unix(cron:session): session closed for user root
+Dec 20 14:45:15 pijunior sshd[12437]: Received disconnect from 202.196.33.20: 11: Bye Bye [preauth]
+Dec 20 14:53:33 pijunior sshd[12452]: Connection closed by 88.191.176.143 [preauth]
+Dec 20 14:53:34 pijunior sshd[12453]: Connection closed by 88.191.176.143 [preauth]
+Dec 20 15:00:01 pijunior CRON[12461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 15:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 15:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 15:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 15:00:44 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 15:00:44 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 15:00:44 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 15:00:44 pijunior CRON[12461]: pam_unix(cron:session): session closed for user root
+Dec 20 15:17:01 pijunior CRON[12505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 15:17:02 pijunior CRON[12505]: pam_unix(cron:session): session closed for user root
+Dec 20 16:00:01 pijunior CRON[12564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 16:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 16:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 16:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 16:00:40 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 16:00:40 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 16:00:40 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 16:00:40 pijunior CRON[12564]: pam_unix(cron:session): session closed for user root
+Dec 20 16:17:01 pijunior CRON[12614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 16:17:01 pijunior CRON[12614]: pam_unix(cron:session): session closed for user root
+Dec 20 17:00:01 pijunior CRON[12672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 17:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 17:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 17:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 17:00:40 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 17:00:40 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 17:00:40 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 17:00:40 pijunior CRON[12672]: pam_unix(cron:session): session closed for user root
+Dec 20 17:17:01 pijunior CRON[12719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 17:17:01 pijunior CRON[12719]: pam_unix(cron:session): session closed for user root
+Dec 20 17:43:59 pijunior sshd[12764]: reverse mapping checking getaddrinfo for 181-21-15-97.speedy.com.ar [181.21.15.97] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 17:44:01 pijunior sshd[12764]: Disconnecting: Too many authentication failures for root from 181.21.15.97 port 40410 ssh2 [preauth]
+Dec 20 18:00:01 pijunior CRON[12781]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 18:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 18:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 18:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 18:00:42 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 18:00:42 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 18:00:42 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 18:00:42 pijunior CRON[12781]: pam_unix(cron:session): session closed for user root
+Dec 20 18:16:38 pijunior sshd[12826]: Accepted publickey for pi from 24.239.194.209 port 43019 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 20 18:16:38 pijunior sshd[12826]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 20 18:16:38 pijunior systemd-logind[386]: New session c11 of user pi.
+Dec 20 18:17:01 pijunior CRON[12852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 18:17:02 pijunior CRON[12852]: pam_unix(cron:session): session closed for user root
+Dec 20 18:17:21 pijunior sshd[12870]: Accepted publickey for pi from 13.59.45.226 port 33802 ssh2: RSA ed:4e:d0:55:e3:9c:df:fe:14:1b:18:be:f5:62:28:3b
+Dec 20 18:17:21 pijunior sshd[12870]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 20 18:17:21 pijunior systemd-logind[386]: New session c12 of user pi.
+Dec 20 18:17:21 pijunior sshd[12868]: Accepted publickey for pi from 13.59.45.226 port 10046 ssh2: RSA ed:4e:d0:55:e3:9c:df:fe:14:1b:18:be:f5:62:28:3b
+Dec 20 18:17:21 pijunior sshd[12869]: Accepted publickey for pi from 13.59.45.226 port 52006 ssh2: RSA ed:4e:d0:55:e3:9c:df:fe:14:1b:18:be:f5:62:28:3b
+Dec 20 18:17:21 pijunior sshd[12868]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 20 18:17:21 pijunior sshd[12869]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 20 18:17:21 pijunior systemd-logind[386]: New session c13 of user pi.
+Dec 20 18:17:21 pijunior systemd-logind[386]: New session c14 of user pi.
+Dec 20 18:17:22 pijunior sshd[12881]: Received disconnect from 13.59.45.226: 11: disconnected by user
+Dec 20 18:17:22 pijunior sshd[12870]: pam_unix(sshd:session): session closed for user pi
+Dec 20 18:17:22 pijunior sshd[12896]: Received disconnect from 13.59.45.226: 11: disconnected by user
+Dec 20 18:17:22 pijunior sshd[12890]: Received disconnect from 13.59.45.226: 11: disconnected by user
+Dec 20 18:17:22 pijunior sshd[12868]: pam_unix(sshd:session): session closed for user pi
+Dec 20 18:17:22 pijunior sshd[12869]: pam_unix(sshd:session): session closed for user pi
+Dec 20 18:17:22 pijunior systemd-logind[386]: Removed session c12.
+Dec 20 18:17:22 pijunior systemd-logind[386]: Removed session c13.
+Dec 20 18:17:22 pijunior systemd-logind[386]: Removed session c14.
+Dec 20 18:23:28 pijunior sshd[12832]: Received disconnect from 24.239.194.209: 11: disconnected by user
+Dec 20 18:23:28 pijunior sshd[12826]: pam_unix(sshd:session): session closed for user pi
+Dec 20 18:23:28 pijunior systemd-logind[386]: Removed session c11.
+Dec 20 18:26:46 pijunior sshd[12931]: Accepted publickey for pi from 24.239.194.209 port 43080 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 20 18:26:46 pijunior sshd[12931]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 20 18:26:46 pijunior systemd-logind[386]: New session c15 of user pi.
+Dec 20 18:29:48 pijunior sshd[12952]: Disconnecting: Too many authentication failures for root from 84.236.124.127 port 43118 ssh2 [preauth]
+Dec 20 18:36:24 pijunior sshd[12970]: Accepted publickey for pi from 24.239.194.209 port 43157 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 20 18:36:24 pijunior sshd[12970]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 20 18:36:24 pijunior systemd-logind[386]: New session c16 of user pi.
+Dec 20 18:51:57 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 18:51:57 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 20 18:51:57 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 18:51:59 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 18:51:59 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 20 18:51:59 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 18:52:55 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 18:52:55 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 20 18:52:55 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 18:53:44 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 18:53:44 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 20 18:53:44 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 19:00:01 pijunior CRON[13112]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 19:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 19:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 19:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 19:00:48 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 19:00:48 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 19:00:48 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 19:00:48 pijunior CRON[13112]: pam_unix(cron:session): session closed for user root
+Dec 20 19:17:01 pijunior CRON[13162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 19:17:01 pijunior CRON[13162]: pam_unix(cron:session): session closed for user root
+Dec 20 19:22:37 pijunior sshd[13191]: Invalid user admin from 210.113.121.49
+Dec 20 19:22:37 pijunior sshd[13191]: input_userauth_request: invalid user admin [preauth]
+Dec 20 19:22:38 pijunior sshd[13191]: Disconnecting: Too many authentication failures for invalid user admin from 210.113.121.49 port 34064 ssh2 [preauth]
+Dec 20 19:49:15 pijunior sshd[13212]: Connection closed by 94.62.99.82 [preauth]
+Dec 20 20:00:01 pijunior CRON[13228]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 20:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 20:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 20:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 20:00:48 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 20:00:48 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 20:00:48 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 20:00:49 pijunior CRON[13228]: pam_unix(cron:session): session closed for user root
+Dec 20 20:04:18 pijunior sshd[13258]: Received disconnect from 218.67.107.6: 11: Bye Bye [preauth]
+Dec 20 20:17:01 pijunior CRON[13274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 20:17:01 pijunior CRON[13274]: pam_unix(cron:session): session closed for user root
+Dec 20 20:59:24 pijunior sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/local/bin/pip uninstall pandas
+Dec 20 20:59:24 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 20 20:59:46 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 21:00:01 pijunior CRON[13371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 21:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 21:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 21:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 21:00:48 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 21:00:48 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 21:00:48 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 21:00:48 pijunior CRON[13371]: pam_unix(cron:session): session closed for user root
+Dec 20 21:12:12 pijunior sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/pip3 install folium
+Dec 20 21:12:12 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 20 21:12:47 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 21:13:23 pijunior sshd[12976]: Received disconnect from 24.239.194.209: 11: disconnected by user
+Dec 20 21:13:23 pijunior sshd[12970]: pam_unix(sshd:session): session closed for user pi
+Dec 20 21:13:23 pijunior systemd-logind[386]: Removed session c16.
+Dec 20 21:13:25 pijunior sshd[13460]: reverse mapping checking getaddrinfo for 151.177.88.218.broad.nj.sc.dynamic.163data.com.cn [218.88.177.151] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 21:13:26 pijunior sshd[13460]: Disconnecting: Too many authentication failures for root from 218.88.177.151 port 35197 ssh2 [preauth]
+Dec 20 21:17:01 pijunior CRON[13513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 21:17:01 pijunior CRON[13513]: pam_unix(cron:session): session closed for user root
+Dec 20 21:35:47 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp folium_map.html /var/www/html/
+Dec 20 21:35:47 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 20 21:35:47 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 21:46:16 pijunior sshd[13703]: Accepted publickey for pi from 24.239.194.209 port 46524 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 20 21:46:16 pijunior sshd[13703]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 20 21:46:16 pijunior systemd-logind[386]: New session c17 of user pi.
+Dec 20 21:56:35 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp folium_map.html /var/www/html/
+Dec 20 21:56:35 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 20 21:56:35 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 22:00:01 pijunior CRON[13772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 22:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 22:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 22:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 22:00:04 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 22:00:04 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 22:00:04 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 22:00:04 pijunior CRON[13772]: pam_unix(cron:session): session closed for user root
+Dec 20 22:06:11 pijunior sshd[13841]: reverse mapping checking getaddrinfo for 71.32.87.110.broad.fz.fj.dynamic.163data.com.cn [110.87.32.71] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 20 22:06:12 pijunior sshd[13841]: Disconnecting: Too many authentication failures for root from 110.87.32.71 port 42901 ssh2 [preauth]
+Dec 20 22:11:30 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp folium_map.html /var/www/html/
+Dec 20 22:11:30 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 20 22:11:30 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 22:17:01 pijunior CRON[13866]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 22:17:01 pijunior CRON[13866]: pam_unix(cron:session): session closed for user root
+Dec 20 22:38:04 pijunior sshd[13709]: Received disconnect from 24.239.194.209: 11: disconnected by user
+Dec 20 22:38:04 pijunior sshd[13703]: pam_unix(sshd:session): session closed for user pi
+Dec 20 22:38:04 pijunior systemd-logind[386]: Removed session c17.
+Dec 20 22:41:51 pijunior sshd[14107]: Disconnecting: Too many authentication failures for root from 62.219.123.30 port 58898 ssh2 [preauth]
+Dec 20 23:00:01 pijunior CRON[14126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 23:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 20 23:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 23:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 23:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 20 23:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 20 23:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 23:00:03 pijunior CRON[14126]: pam_unix(cron:session): session closed for user root
+Dec 20 23:17:01 pijunior CRON[14170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 23:17:01 pijunior CRON[14170]: pam_unix(cron:session): session closed for user root
+Dec 21 00:00:01 pijunior CRON[14229]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 00:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 00:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 00:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 00:00:04 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 00:00:04 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 00:00:04 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 00:00:04 pijunior CRON[14229]: pam_unix(cron:session): session closed for user root
+Dec 21 00:10:48 pijunior sshd[14273]: Invalid user  0101 from 5.101.40.10
+Dec 21 00:10:48 pijunior sshd[14273]: input_userauth_request: invalid user  0101 [preauth]
+Dec 21 00:10:48 pijunior sshd[14273]: Connection closed by 5.101.40.10 [preauth]
+Dec 21 00:10:56 pijunior sshd[14276]: Did not receive identification string from 5.101.40.10
+Dec 21 00:17:01 pijunior CRON[14278]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 00:17:01 pijunior CRON[14278]: pam_unix(cron:session): session closed for user root
+Dec 21 01:00:01 pijunior CRON[14345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 01:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 01:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 01:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 01:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 01:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 01:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 01:00:03 pijunior CRON[14345]: pam_unix(cron:session): session closed for user root
+Dec 21 01:17:01 pijunior CRON[14391]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 01:17:01 pijunior CRON[14391]: pam_unix(cron:session): session closed for user root
+Dec 21 01:26:28 pijunior sshd[14421]: reverse mapping checking getaddrinfo for hn.kd.ny.adsl [182.126.212.79] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 01:26:30 pijunior sshd[14421]: Disconnecting: Too many authentication failures for root from 182.126.212.79 port 58833 ssh2 [preauth]
+Dec 21 01:39:31 pijunior sshd[14439]: Disconnecting: Too many authentication failures for root from 223.155.254.37 port 51278 ssh2 [preauth]
+Dec 21 02:00:02 pijunior CRON[14457]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 02:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 02:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 02:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 02:00:04 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 02:00:04 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 02:00:04 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 02:00:04 pijunior CRON[14457]: pam_unix(cron:session): session closed for user root
+Dec 21 02:00:12 pijunior sshd[14487]: reverse mapping checking getaddrinfo for ppp-92-39-143-186.in-tel.ru [92.39.143.186] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 02:00:13 pijunior sshd[14487]: Disconnecting: Too many authentication failures for root from 92.39.143.186 port 48049 ssh2 [preauth]
+Dec 21 02:06:53 pijunior sshd[14491]: Disconnecting: Too many authentication failures for root from 66.30.236.42 port 38699 ssh2 [preauth]
+Dec 21 02:17:01 pijunior CRON[14507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 02:17:01 pijunior CRON[14507]: pam_unix(cron:session): session closed for user root
+Dec 21 02:33:03 pijunior sshd[14538]: Received disconnect from 58.218.213.45: 11: disconnect [preauth]
+Dec 21 03:00:01 pijunior CRON[14569]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 03:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 03:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 03:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 03:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 03:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 03:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 03:00:03 pijunior CRON[14569]: pam_unix(cron:session): session closed for user root
+Dec 21 03:17:01 pijunior CRON[14613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 03:17:02 pijunior CRON[14613]: pam_unix(cron:session): session closed for user root
+Dec 21 03:17:48 pijunior sshd[14629]: Disconnecting: Too many authentication failures for root from 91.196.94.148 port 47164 ssh2 [preauth]
+Dec 21 03:51:09 pijunior sshd[14663]: Did not receive identification string from 163.172.69.249
+Dec 21 03:51:09 pijunior sshd[14664]: Connection closed by 163.172.69.250 [preauth]
+Dec 21 04:00:01 pijunior CRON[14679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 04:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 04:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 04:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 04:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 04:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 04:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 04:00:03 pijunior CRON[14679]: pam_unix(cron:session): session closed for user root
+Dec 21 04:08:39 pijunior sshd[12937]: Received disconnect from 24.239.194.209: 11: disconnected by user
+Dec 21 04:08:39 pijunior sshd[12931]: pam_unix(sshd:session): session closed for user pi
+Dec 21 04:08:39 pijunior systemd-logind[386]: Removed session c15.
+Dec 21 04:17:01 pijunior CRON[14730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 04:17:01 pijunior CRON[14730]: pam_unix(cron:session): session closed for user root
+Dec 21 05:00:01 pijunior CRON[14791]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 05:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 05:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 05:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 05:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 05:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 05:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 05:00:03 pijunior CRON[14791]: pam_unix(cron:session): session closed for user root
+Dec 21 05:15:06 pijunior sshd[14835]: Bad protocol version identification 'CONNECT xui.ptlogin2.qq.com:443 HTTP/1.1' from 113.96.223.207 port 40357
+Dec 21 05:15:06 pijunior sshd[14836]: Did not receive identification string from 113.96.223.207
+Dec 21 05:15:06 pijunior sshd[14838]: Did not receive identification string from 113.96.223.207
+Dec 21 05:17:01 pijunior CRON[14840]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 05:17:02 pijunior CRON[14840]: pam_unix(cron:session): session closed for user root
+Dec 21 05:47:37 pijunior sshd[14885]: Disconnecting: Too many authentication failures for root from 157.107.222.151 port 4560 ssh2 [preauth]
+Dec 21 06:00:01 pijunior CRON[14903]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 06:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 06:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 06:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 06:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 06:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 06:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 06:00:03 pijunior CRON[14903]: pam_unix(cron:session): session closed for user root
+Dec 21 06:17:01 pijunior CRON[14948]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 06:17:01 pijunior CRON[14948]: pam_unix(cron:session): session closed for user root
+Dec 21 06:25:01 pijunior CRON[14978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 06:25:08 pijunior CRON[14978]: pam_unix(cron:session): session closed for user root
+Dec 21 06:39:03 pijunior sshd[15172]: reverse mapping checking getaddrinfo for 78.182.254.117.dynamic.ttnet.com.tr [78.182.254.117] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 06:39:04 pijunior sshd[15172]: Disconnecting: Too many authentication failures for root from 78.182.254.117 port 46647 ssh2 [preauth]
+Dec 21 06:42:55 pijunior sshd[15176]: reverse mapping checking getaddrinfo for 190-179-186-199.speedy.com.ar [190.179.186.199] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 07:00:01 pijunior CRON[15194]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 07:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 07:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 07:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 07:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 07:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 07:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 07:00:03 pijunior CRON[15194]: pam_unix(cron:session): session closed for user root
+Dec 21 07:01:12 pijunior sshd[15224]: Invalid user admin from 219.250.86.134
+Dec 21 07:01:12 pijunior sshd[15224]: input_userauth_request: invalid user admin [preauth]
+Dec 21 07:01:14 pijunior sshd[15224]: Disconnecting: Too many authentication failures for invalid user admin from 219.250.86.134 port 60207 ssh2 [preauth]
+Dec 21 07:17:02 pijunior CRON[15242]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 07:17:02 pijunior CRON[15242]: pam_unix(cron:session): session closed for user root
+Dec 21 08:00:01 pijunior CRON[15301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 08:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 08:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 08:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 08:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 08:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 08:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 08:00:03 pijunior CRON[15301]: pam_unix(cron:session): session closed for user root
+Dec 21 08:13:53 pijunior sshd[15347]: Invalid user admin from 86.6.203.239
+Dec 21 08:13:53 pijunior sshd[15347]: input_userauth_request: invalid user admin [preauth]
+Dec 21 08:13:54 pijunior sshd[15347]: Disconnecting: Too many authentication failures for invalid user admin from 86.6.203.239 port 43816 ssh2 [preauth]
+Dec 21 08:17:01 pijunior CRON[15350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 08:17:01 pijunior CRON[15350]: pam_unix(cron:session): session closed for user root
+Dec 21 09:00:01 pijunior CRON[15410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 09:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 09:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 09:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 09:00:04 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 09:00:04 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 09:00:04 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 09:00:04 pijunior CRON[15410]: pam_unix(cron:session): session closed for user root
+Dec 21 09:17:01 pijunior CRON[15455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 09:17:01 pijunior CRON[15455]: pam_unix(cron:session): session closed for user root
+Dec 21 09:34:43 pijunior sshd[15486]: Connection closed by 178.215.194.128 [preauth]
+Dec 21 09:34:43 pijunior sshd[15488]: Connection closed by 178.215.194.128 [preauth]
+Dec 21 10:00:01 pijunior CRON[15522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 10:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 10:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 10:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 10:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 10:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 10:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 10:00:03 pijunior CRON[15522]: pam_unix(cron:session): session closed for user root
+Dec 21 10:08:56 pijunior sshd[15565]: reverse mapping checking getaddrinfo for 119.184.113.181.static.anycast.cnt-grms.ec [181.113.184.119] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 10:08:56 pijunior sshd[15565]: Invalid user admin from 181.113.184.119
+Dec 21 10:08:56 pijunior sshd[15565]: input_userauth_request: invalid user admin [preauth]
+Dec 21 10:08:57 pijunior sshd[15565]: Disconnecting: Too many authentication failures for invalid user admin from 181.113.184.119 port 53762 ssh2 [preauth]
+Dec 21 10:17:01 pijunior CRON[15570]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 10:17:01 pijunior CRON[15570]: pam_unix(cron:session): session closed for user root
+Dec 21 10:54:29 pijunior sshd[15627]: Invalid user admin from 173.16.10.141
+Dec 21 10:54:29 pijunior sshd[15627]: input_userauth_request: invalid user admin [preauth]
+Dec 21 10:54:29 pijunior sshd[15627]: Disconnecting: Too many authentication failures for invalid user admin from 173.16.10.141 port 55311 ssh2 [preauth]
+Dec 21 11:00:01 pijunior CRON[15631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 11:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 11:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 11:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 11:00:04 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 11:00:04 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 11:00:04 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 11:00:04 pijunior CRON[15631]: pam_unix(cron:session): session closed for user root
+Dec 21 11:17:01 pijunior CRON[15675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 11:17:01 pijunior CRON[15675]: pam_unix(cron:session): session closed for user root
+Dec 21 12:00:01 pijunior CRON[15734]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 12:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 12:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 12:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 12:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 12:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 12:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 12:00:03 pijunior CRON[15734]: pam_unix(cron:session): session closed for user root
+Dec 21 12:14:46 pijunior sshd[15777]: Received disconnect from 58.218.198.162: 11:  [preauth]
+Dec 21 12:17:01 pijunior CRON[15780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 12:17:01 pijunior CRON[15780]: pam_unix(cron:session): session closed for user root
+Dec 21 12:24:03 pijunior sshd[15809]: Did not receive identification string from 169.54.244.75
+Dec 21 13:00:01 pijunior CRON[15842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 13:00:02 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 13:00:02 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 13:00:02 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 13:00:04 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 13:00:04 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 13:00:04 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 13:00:04 pijunior CRON[15842]: pam_unix(cron:session): session closed for user root
+Dec 21 13:17:01 pijunior CRON[15886]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 13:17:01 pijunior CRON[15886]: pam_unix(cron:session): session closed for user root
+Dec 21 14:00:01 pijunior CRON[15946]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 14:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 14:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 14:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 14:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 14:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 14:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 14:00:03 pijunior CRON[15946]: pam_unix(cron:session): session closed for user root
+Dec 21 14:17:01 pijunior CRON[15991]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 14:17:02 pijunior CRON[15991]: pam_unix(cron:session): session closed for user root
+Dec 21 15:00:01 pijunior CRON[16051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 15:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 15:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 15:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 15:00:03 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 15:00:03 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 15:00:03 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 15:00:03 pijunior CRON[16051]: pam_unix(cron:session): session closed for user root
+Dec 21 15:07:47 pijunior sshd[16094]: Connection closed by 94.236.240.76 [preauth]
+Dec 21 15:07:48 pijunior sshd[16096]: Connection closed by 94.236.240.76 [preauth]
+Dec 21 15:17:01 pijunior CRON[16102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 15:17:01 pijunior CRON[16102]: pam_unix(cron:session): session closed for user root
+Dec 21 15:20:22 pijunior sshd[16118]: Accepted publickey for pi from 24.239.194.209 port 53423 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 21 15:20:22 pijunior sshd[16118]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 21 15:20:22 pijunior systemd-logind[386]: New session c18 of user pi.
+Dec 21 15:26:20 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/pip3 install python-geoip-geolite2
+Dec 21 15:26:20 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 15:27:37 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 15:28:13 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/pip3 install gmplot
+Dec 21 15:28:13 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 15:28:31 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 15:28:52 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/pip3 install bs4
+Dec 21 15:28:52 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 15:29:08 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 15:32:46 pijunior sshd[16321]: Invalid user admin from 144.48.168.253
+Dec 21 15:32:46 pijunior sshd[16321]: input_userauth_request: invalid user admin [preauth]
+Dec 21 15:32:48 pijunior sshd[16321]: Disconnecting: Too many authentication failures for invalid user admin from 144.48.168.253 port 57319 ssh2 [preauth]
+Dec 21 15:42:25 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/pip3 uninstall python-geoip-geolite2
+Dec 21 15:42:25 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 15:42:37 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 15:43:30 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/pip3 install python-geoip-python3
+Dec 21 15:43:30 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 15:43:36 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 15:56:29 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/pip3 uninstall python-geoip-python3
+Dec 21 15:56:29 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 15:56:35 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:00:01 pijunior CRON[16406]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 16:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 16:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 16:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:01:57 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 16:01:57 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 16:01:57 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:01:57 pijunior CRON[16406]: pam_unix(cron:session): session closed for user root
+Dec 21 16:09:28 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/pip3 install flask
+Dec 21 16:09:28 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 16:09:51 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:17:01 pijunior CRON[16496]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 16:17:01 pijunior CRON[16496]: pam_unix(cron:session): session closed for user root
+Dec 21 16:21:19 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/mv /tmp/caddy /usr/local/bin/caddy
+Dec 21 16:21:19 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 16:21:19 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:21:19 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/sbin/setcap cap_net_bind_service=+ep /usr/local/bin/caddy
+Dec 21 16:21:20 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 16:21:20 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:21:20 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/rm -- /tmp/caddy_linux_arm6_custom.tar.gz
+Dec 21 16:21:20 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 16:21:20 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:24:23 pijunior sshd[16602]: Did not receive identification string from 5.8.10.202
+Dec 21 16:24:24 pijunior sshd[16603]: Connection closed by 5.8.10.202 [preauth]
+Dec 21 16:24:45 pijunior dbus[355]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.69" (uid=1000 pid=16629 comm="systemctl stop nginx.servic ") interface="org.freedesktop.systemd1.Manager" member="StopUnit" error name="(unset)" requested_reply="0" destination="org.freedesktop.systemd1" (uid=0 pid=1 comm="/sbin/init ")
+Dec 21 16:24:48 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/systemctl stop nginx.servic
+Dec 21 16:24:48 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 16:24:49 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:24:59 pijunior dbus[355]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.72" (uid=1000 pid=16648 comm="systemctl stop apache2 ") interface="org.freedesktop.systemd1.Manager" member="StopUnit" error name="(unset)" requested_reply="0" destination="org.freedesktop.systemd1" (uid=0 pid=1 comm="/sbin/init ")
+Dec 21 16:25:01 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/systemctl stop apache2
+Dec 21 16:25:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 16:25:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:25:09 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/systemctl disable apache2
+Dec 21 16:25:09 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 16:25:12 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:25:41 pijunior dbus[355]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.73" (uid=1000 pid=16700 comm="systemctl stop nginx ") interface="org.freedesktop.systemd1.Manager" member="StopUnit" error name="(unset)" requested_reply="0" destination="org.freedesktop.systemd1" (uid=0 pid=1 comm="/sbin/init ")
+Dec 21 16:25:43 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/systemctl stop nginx
+Dec 21 16:25:43 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 16:25:44 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:27:20 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/apt-get install python3.4-gdbm
+Dec 21 16:27:20 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 16:27:41 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 16:40:02 pijunior systemd-logind[386]: Removed session c4.
+Dec 21 16:55:08 pijunior sshd[17048]: Did not receive identification string from 181.196.150.66
+Dec 21 16:57:42 pijunior sshd[17050]: Received disconnect from 114.207.154.2: 11: Bye Bye [preauth]
+Dec 21 17:00:01 pijunior CRON[17056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 17:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 17:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 17:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 17:02:05 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 17:02:05 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 17:02:05 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 17:02:05 pijunior CRON[17056]: pam_unix(cron:session): session closed for user root
+Dec 21 17:15:23 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/apt remove python3-gdbm
+Dec 21 17:15:23 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 17:15:40 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 17:15:56 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/apt install python3.4-gdbm
+Dec 21 17:15:56 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 17:16:14 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 17:16:22 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Dec 21 17:16:22 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 17:16:22 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 17:16:26 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Dec 21 17:16:26 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 17:17:01 pijunior CRON[17525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 17:17:01 pijunior CRON[17525]: pam_unix(cron:session): session closed for user root
+Dec 21 17:17:08 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 18:00:01 pijunior CRON[17695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 18:00:01 pijunior sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 18:00:01 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 18:00:01 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 18:10:39 pijunior sudo:     root : TTY=unknown ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 18:10:39 pijunior sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 21 18:10:39 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 18:10:39 pijunior CRON[17695]: pam_unix(cron:session): session closed for user root
+Dec 21 18:17:01 pijunior CRON[17744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 21 18:17:01 pijunior CRON[17744]: pam_unix(cron:session): session closed for user root
+Dec 21 18:22:30 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 18:22:30 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 18:22:30 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 18:22:35 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 18:22:35 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 18:22:35 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 18:23:04 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 18:23:04 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 18:23:04 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 18:23:08 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 18:23:08 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 18:23:08 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 18:23:30 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 18:23:30 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 18:23:30 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 18:35:19 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /home/pi/Log-Mapper/mymap.html /var/www/html/
+Dec 21 18:35:19 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Dec 21 18:35:19 pijunior sudo: pam_unix(sudo:session): session closed for user root
+Dec 21 18:36:11 pijunior sshd[16124]: Received disconnect from 24.239.194.209: 11: disconnected by user
+Dec 21 18:36:11 pijunior sshd[16118]: pam_unix(sshd:session): session closed for user pi
+Dec 21 18:36:18 pijunior sshd[17865]: Accepted publickey for pi from 24.239.194.209 port 55034 ssh2: RSA 0d:19:76:4b:50:4d:dc:7d:11:06:7b:9c:1f:d5:1b:12
+Dec 21 18:36:18 pijunior sshd[17865]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Dec 21 18:36:18 pijunior systemd-logind[386]: New session c19 of user pi.
+Dec 21 18:37:09 pijunior sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Log-Mapper ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/pi/Log-Mapper/
+Dec 21 18:37:09 pijunior sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)

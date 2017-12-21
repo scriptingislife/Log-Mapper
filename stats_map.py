@@ -6,11 +6,11 @@ import re
 import datetime
 import sqlite3
 from geoip import geolite2
-import plotter
+#import plotter
 import attempt
 import timestamp
-import get_stats as gs
-import draw_map
+#import get_stats as gs
+#import draw_map
 #import geojson
 
 LOGFILE = "auth.log"
@@ -142,18 +142,17 @@ def main():
 
     #print(ipSummary(db))
 
-    coords = getCoordinates(db)
+#    coords = getCoordinates(db)
 
     #Write changes to db
     db.commit()
     db.close()
 
-    plotter.plot(coords[0], coords[1])
+#    plotter.plot(coords[0], coords[1])
 
     #Run stats_map with python2. Draw map with python3.
     #draw_map.draw()
-
-    gs.get(IP_DATABASE, gs.STATS_DATABASE)
+#    gs.get(IP_DATABASE, gs.STATS_DATABASE)
 
 
 

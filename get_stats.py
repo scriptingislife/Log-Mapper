@@ -3,8 +3,10 @@
 ######
 import sqlite3
 import shelve
+from os import path
+from app import app
 
-STATS_DATABASE = "app/stats,dict"
+STATS_DATABASE = "app/stats.dict"
 
 def get_IPs(db):
     return int(list(db.execute("SELECT COUNT (DISTINCT IP) FROM MARKERS"))[0][0])
@@ -23,3 +25,6 @@ def get(database, storage):
     stats['unique_countries'] = get_countries(get_db)
     stats['total_attempts'] = get_attempts(get_db)
     stats.close()
+
+if __name__ == "__main__":
+    get("test.db", path.join(app.root_path, "stats.dict"))
