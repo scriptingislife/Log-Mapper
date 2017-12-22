@@ -35,10 +35,17 @@ def draw():
 
         make_marker(folium_map, ip, success, country, continent, latitude, longitude)
 
-    folium_map.save(MAP_LOCATION)
+    try:
+        folium_map.save(MAP_LOCATION)
+    except PermissionError:
+        folium_map.save("folium_map-backup.html")
 
     plugins.HeatMap(zip(lats, lons)).add_to(folium_map)
-    folium_map.save("app/templates/heatmap.html")
+
+    try:
+        folium_map.save("app/templates/heatmap.html")
+    except PermissionError:
+        folium_map.save("heatmap-backup.html")
 
 
 def make_marker(map, ip, success, country, continent, latitude, longitude):
