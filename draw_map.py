@@ -6,10 +6,14 @@ from folium import plugins
 import sqlite3
 
 MAP_LOCATION = "app/templates/folium_map.html"
+HEATMAP_LOCATION = "app/templates/heatmap.html"
+
+DB_FILE = "test.db"
 
 def draw():
-    db = sqlite3.connect("test.db")
+    db = sqlite3.connect(DB_FILE)
     folium_map = folium.Map(location=[24.635246, 2.616971], zoom_start=3, tiles='CartoDB dark_matter')
+    folium_heatmap = folium.Map(location=[24.635246, 2.616971], zoom_start=3, tiles='CartoDB positron')
 
     #Get markers and make_marker for each
     #Doesn't include timestamp to get unique (DISTINCT) IP addresses
@@ -33,28 +37,24 @@ def draw():
         lats.append(latitude)
         lons.append(longitude)
 
-        make_marker(folium_map, ip, success, country, continent, latitude, longitude)
+        make_marker(folium_map, folium_heatmap, ip, success, country, continent, latitude, longitude)
+
+    plugins.HeatMap(zip(lats, lons), radius=18).add_to(folium_heatmap)
 
     try:
         folium_map.save(MAP_LOCATION)
     except Exception as e:
-        print("ERROR: Saving to folium_map-backup.html")
+        print("ERROR. Saving to folium_map-backup.html instead.")
         folium_map.save("folium_map-backup.html")
 
-    folium_heatmap = folium.Map(location=[24.635246, 2.616971], zoom_start=3, tiles='CartoDB positron')
-
-    plugins.HeatMap(zip(lats, lons)).add_to(folium_heatmap)
-    plugins.HeatMap(zip(lats, lons)).add_to(folium_map)
-
     try:
-        folium_map.save("app/templates/heatmap.html")
-        #folium_heatmap.save("app/templates/heatmap.html")
+        folium_heatmap.save(HEATMAP_LOCATION)
     except Exception as e:
-        print("ERROR: Saving to heatmap-backup.html")
-        folium_heatmap.save("heatmap-backup.html")
+        print("ERROR. Saving to heatmap-backup.html instead.    ")
+        map.save("heatmap-backup.html")
 
 
-def make_marker(map, ip, success, country, continent, latitude, longitude):
+def make_marker(map, heatmap, ip, success, country, continent, latitude, longitude):
     print("Making marker for: "+ str(ip))
     popup_text = """{}<br>
                     Success: {}<br>
@@ -73,7 +73,8 @@ def make_marker(map, ip, success, country, continent, latitude, longitude):
     elif success == True:
         marker_color = "#53F42E"
 
-    folium.CircleMarker(location=[latitude, longitude], color=marker_color, fill=True, popup=popup_text).add_to(map)
+    folium.CircleMarker(location=[latitude, longitude], radius=1, color=marker_color, fill=False, popup=popup_text).add_to(map)
+    folium.CircleMarker(location=[latitude, longitude], radius=1, color=marker_color, fill=False, popup=popup_text).add_to(heatmap)
 
 if __name__ == "__main__":
     draw()
