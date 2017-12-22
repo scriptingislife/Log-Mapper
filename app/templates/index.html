@@ -31,6 +31,9 @@
             function refreshMap(){
                 document.getElementById("map-frame").contentDocument.location.reload(true);
             }
+            function gotoHeatmap(){
+                document.getElementById("map-frame").src = "heatmap.html";
+            }
         </script>
     </head>
     <body>
@@ -42,6 +45,7 @@
         <div height>
             <img class="refresh" id="ic-refresh" src="refresh.svg" onclick="refreshMap()" />
             <!--<p class="refresh">Refresh</p>-->
+            <button onclick="gotoHeatmap()" style="float: right">Heatmap</button>
         </div>
         <iframe id="map-frame" src="folium_map.html"></iframe>
     </body>
