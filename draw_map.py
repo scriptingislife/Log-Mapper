@@ -73,7 +73,7 @@ def make_marker(map, ip, success, country, continent, latitude, longitude):
     elif success == True:
         marker_color = "#53F42E"
 
-    folium.CircleMarker(location=[latitude, longitude], color=marker_color, fill=True, popup=popup_text, radius=2).add_to(map)
+    folium.CircleMarker(location=[latitude, longitude], color=marker_color, fill=True, popup=popup_text).add_to(map)
 
 if __name__ == "__main__":
     draw()
