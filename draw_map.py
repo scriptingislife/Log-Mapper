@@ -37,15 +37,17 @@ def draw():
 
     try:
         folium_map.save(MAP_LOCATION)
-    except PermissionError:
+    except Exception as e:
         folium_map.save("folium_map-backup.html")
+
+    folium_heatmap = folium.Map(location=[24.635246, 2.616971], zoom_start=3, tiles='CartoDB positron')
 
     plugins.HeatMap(zip(lats, lons)).add_to(folium_map)
 
     try:
-        folium_map.save("app/templates/heatmap.html")
-    except PermissionError:
-        folium_map.save("heatmap-backup.html")
+        folium_heatmap.save("app/templates/heatmap.html")
+    except Exception as e:
+        folium_heatmap.save("heatmap-backup.html")
 
 
 def make_marker(map, ip, success, country, continent, latitude, longitude):
