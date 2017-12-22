@@ -42,7 +42,7 @@ def draw():
 
     folium_heatmap = folium.Map(location=[24.635246, 2.616971], zoom_start=3, tiles='CartoDB positron')
 
-    plugins.HeatMap(zip(lats, lons)).add_to(folium_map)
+    plugins.HeatMap(zip(lats, lons)).add_to(folium_heatmap)
 
     try:
         folium_heatmap.save("app/templates/heatmap.html")
@@ -69,7 +69,7 @@ def make_marker(map, ip, success, country, continent, latitude, longitude):
     elif success == True:
         marker_color = "#53F42E"
 
-    folium.CircleMarker(location=[latitude, longitude], color=marker_color, fill=True, popup=popup_text, radius=4).add_to(map)
+    folium.CircleMarker(location=[latitude, longitude], color=marker_color, fill=True, popup=popup_text, radius=2).add_to(map)
 
 if __name__ == "__main__":
     draw()
