@@ -42,6 +42,7 @@
             <tr><th>Attempted Logins</th><th>Unique IP Addresses</th><th>Unique Countries</th></tr>
             <tr><td>{{total_logins}}</td><td>{{unique_addresses}}<td>{{unique_countries}}</td></tr>
         </table>
+        <p>Last updated: {{ last_updated }}</p>
         <div height>
             <img class="refresh" id="ic-refresh" src="refresh.svg" onclick="refreshMap()" />
             <!--<p class="refresh">Refresh</p>-->

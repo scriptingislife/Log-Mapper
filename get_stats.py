@@ -5,6 +5,7 @@ import sqlite3
 import shelve
 from os import path
 from app import app
+from datetime import datetime
 
 STATS_DATABASE = "app/stats.dict"
 
@@ -24,6 +25,7 @@ def get(database, storage):
     stats['unique_ips'] = get_IPs(get_db)
     stats['unique_countries'] = get_countries(get_db)
     stats['total_attempts'] = get_attempts(get_db)
+    stats['last_updated'] = datetime.today().isoformat(' ')
     stats.close()
 
 if __name__ == "__main__":

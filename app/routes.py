@@ -35,12 +35,19 @@ def index():
     except:
         pass
 
+
+    updated = "Unavailable"
+    try:
+        updated = stats['last_updated']
+    except:
+        pass
+
     try:
         stats.close()
     except:
         pass
 
-    return render_template('index.html', total_logins=attempts, unique_addresses=ips, unique_countries=countries)
+    return render_template('index.html', total_logins=attempts, unique_addresses=ips, unique_countries=countries, last_updated=updated)
 
 @app.route('/folium_map.html')
 def getMap():
