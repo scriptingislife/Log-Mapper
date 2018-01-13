@@ -43,7 +43,10 @@ def getLineInfo(line):
         return None
 
     #GeoIP Lookup
-    atm.lookup = geolite2.lookup(line_ips[0])
+    try:
+        atm.lookup = geolite2.lookup(line_ips[0])
+    except:
+        print("ERROR: Bad IP '{}'".format(line_ips[0]))
     if atm.lookup == None:
         return None
 
