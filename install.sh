@@ -29,6 +29,19 @@ echo "LM_STATS_DB=$LM_STATS_DB" >> $CONF_FILE
 echo "[*] Loading environment variables"
 . "$CONF_FILE"
 
+##### Package Dependencies
+echo "[*] Installing packages"
+
+PACKAGES="python3 python-pi"
+
+if [[ "$ID_LIKE" = "debian" ]]; then
+    apt update -y
+    apt install -y $PACKAGES
+elif [[ "$ID_LIKE" = "rhel fedora" ]]; then
+	yum update -y
+	yum install -y $PACKAGES
+fi
+
 
 ###### Python Dependencies
 echo "[*] Installing dependencies for Python2"
@@ -62,8 +75,8 @@ echo "$LM_INSTALL_LOC/services/logmapper-caddy.service start" >> /etc/rc.local
 echo "$LM_INSTALL_LOC/services/logmapper-web.service start" >> /etc/rc.local
 #Start services
 echo "[*] Starting services"
-$LM_INSTALL_LOC/services/logmapper-caddy.service start
-#$LM_INSTALL_LOC/services/logmapper-web.service start
+#$LM_INSTALL_LOC/services/logmapper-caddy.service start
+$LM_INSTALL_LOC/services/logmapper-web.service start
 
 
 #Create cronjobs
