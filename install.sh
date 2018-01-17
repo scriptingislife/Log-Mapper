@@ -35,7 +35,7 @@ echo "[*] Loading environment variables"
 ##### Package Dependencies
 echo "[*] Installing packages"
 
-PACKAGES="python3-dev python3 python-pip"
+PACKAGES="python3-dev python-dev python3 python-pip"
 
 if [[ "$ID_LIKE" = "debian" ]]; then
     apt update -y
@@ -73,7 +73,8 @@ echo "Created logmapper-caddy.log" > log/logmapper-caddy.log
 
 ###### Add environment variables to services
 echo "[*] Adding variables to services"
-sed '/#LM_CONF/a LM_INSTALL_LOC="$LM_INSTALL_LOC"\nLM_MAPPER_USER="$LM_MAPPER_USER"' services/logmapper-web.service > services/logmapper-web.service
+sed '/#LM_CONF/a LM_INSTALL_LOC="$LM_INSTALL_LOC"\nLM_MAPPER_USER="$LM_MAPPER_USER"' services/logmapper-web.service > services/logmapper-web.service.bak
+mv services/logmapper-web.service.bak services/logmapper-web.service
 
 #Link services
 echo "[*] Adding services to rc.local"
