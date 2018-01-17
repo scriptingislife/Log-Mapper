@@ -19,7 +19,7 @@ HOSTNAME=`hostname`
 
 #Define environment variables
 echo "[*] Creating $CONF_FILE"
-echo "#Log Mapper Environment Variables"
+echo "#Log Mapper Environment Variables" > $CONF_FILE
 echo "LM_INSTALL_LOC=$LM_INSTALL_LOC" >> $CONF_FILE
 echo "LM_MAPPER_USER=$LM_MAPPER_USER" >> $CONF_FILE
 echo "LM_ATTEMPT_DB=$LM_ATTEMPT_DB" >> $CONF_FILE
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 #Install and set up caddy
 echo "[*] Installing Caddy Server"
-curl https://getcaddy.com | bash -s personal
+sudo -u LM_MAPPER_USER curl https://getcaddy.com | bash -s personal
 
 
 ###### Caddy Reverse Proxy
@@ -93,7 +93,7 @@ crontab logmapper.cron
 rm logmapper.cron
 
 
-chown -$R $LM_MAPPER_USER:$LM_MAPPER_USER $LM_INSTALL_LOC
+chown -R $LM_MAPPER_USER:$LM_MAPPER_USER $LM_INSTALL_LOC
 
 echo "[*] All set up. Go to https://www.duckdns.org/ to set up a free domain name. Otherwise, configure Caddyfile with your domain name. Then run `caddy` to register your domain with Let's Encrpt."
 echo "[*] Press enter to run the update script for the first time..."
