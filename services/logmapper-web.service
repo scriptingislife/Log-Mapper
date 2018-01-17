@@ -4,8 +4,8 @@
 # Get function from functions library
 . /etc/init.d/functions
 
-LM_INSTALL_LOC=""
-LM_MAPPER_USER=""
+#LM_CONF
+
 
 . ../logmapper.conf
 

@@ -71,6 +71,9 @@ mkdir log
 echo "Created logmapper-web.log" > log/logmapper-web.log
 echo "Created logmapper-caddy.log" > log/logmapper-caddy.log
 
+###### Add environment variables to services
+echo "[*] Adding variables to services"
+sed '/#LM_CONF/a LM_INSTALL_LOC="$LM_INSTALL_LOC"\nLM_MAPPER_USER="$LM_MAPPER_USER"' services/logmapper-web.service
 
 #Link services
 echo "[*] Adding services to rc.local"
