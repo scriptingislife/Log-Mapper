@@ -1,3 +1,0 @@
-pijunior.student.rit.edu {
-    proxy / localhost:5000
-}
