@@ -46,10 +46,10 @@ fi
 
 
 ###### Python Dependencies
-echo "[*] Installing dependencies for Python2"
-pip install -r requirements.txt
 echo "[*] Installing dependencies for Python3"
-pip3 install -r requirements.txt
+pip install -r requirements.txt
+#echo "[*] Installing dependencies for Python3"
+#pip3 install -r requirements.txt
 
 
 #Install and set up caddy
