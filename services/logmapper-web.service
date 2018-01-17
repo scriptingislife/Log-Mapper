@@ -4,14 +4,16 @@
 # Get function from functions library
 . /etc/init.d/functions
 
+LM_INSTALL_LOC=""
+LM_MAPPER_USER=""
+
+. ../logmapper.conf
+
 #Start the service
 start() {
         echo -n "Starting Log Mapper Flask server" | logger
-        #sudo -u ec2-user export FLASK_APP="application.py"
-        cd /home/ec2-user/environment/Log-Mapper/
-	    sudo -u ec2-user python3 application.py 1>/home/ec2-user/environment/Log-Mapper/log/logmapper-web.log 2>&1 &
-	    #cd /home/ec2-user/environment/Log-Mapper/
-        #sudo -u ec2-user /home/ec2-user/environment/Log-Mapper/services/run_flask.sh &
+        cd $LM_INSTALL_LOC
+	    sudo -u $LM_MAPPER_USER python3 application.py 1>"$LM_INSTALL_LOC/log/logmapper-web.log" 2>&1 &
         
         ### Create the lock file ###
         touch /var/lock/subsys/logmapper-web
@@ -28,7 +30,6 @@ stop() {
         echo
 }
 
-#!/bin/bash
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 
    exit 1

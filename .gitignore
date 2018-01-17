@@ -6,6 +6,7 @@
 *.dict
 heatmap.html
 folium_map.html
+Caddyfile
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
