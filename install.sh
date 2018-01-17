@@ -34,7 +34,7 @@ echo "[*] Loading environment variables"
 ##### Package Dependencies
 echo "[*] Installing packages"
 
-PACKAGES="python3 python-pip"
+PACKAGES="python3-dev python3 python-pip"
 
 if [[ "$ID_LIKE" = "debian" ]]; then
     apt update -y
