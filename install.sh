@@ -63,7 +63,7 @@ echo "$LM_INSTALL_LOC/services/logmapper-web.service start" >> /etc/rc.local
 #Start services
 echo "[*] Starting services"
 $LM_INSTALL_LOC/services/logmapper-caddy.service start
-$LM_INSTALL_LOC/services/logmapper-web.service start
+#$LM_INSTALL_LOC/services/logmapper-web.service start
 
 
 #Create cronjobs
@@ -76,7 +76,7 @@ rm logmapper.cron
 
 chown -$R $LM_MAPPER_USER:$LM_MAPPER_USER $LM_INSTALL_LOC
 
-echo "[*] All set up. Go to https://www.duckdns.org/ to set up a free domain name. Otherwise, configure Caddyfile with your domain name."
+echo "[*] All set up. Go to https://www.duckdns.org/ to set up a free domain name. Otherwise, configure Caddyfile with your domain name. Then run `caddy` to register your domain with Let's Encrpt."
 echo "[*] Press enter to run the update script for the first time..."
 read temp
 
