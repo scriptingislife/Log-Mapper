@@ -28,6 +28,7 @@ echo "LM_STATS_DB=$LM_STATS_DB" >> $CONF_FILE
 
 #Load variables just for fun
 echo "[*] Loading environment variables"
+. "/etc/os-release"
 . "$CONF_FILE"
 
 ##### Package Dependencies
