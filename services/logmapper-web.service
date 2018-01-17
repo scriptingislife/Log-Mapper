@@ -7,8 +7,6 @@
 #LM_CONF
 
 
-. ../logmapper.conf
-
 #Start the service
 start() {
         echo -n "Starting Log Mapper Flask server" | logger

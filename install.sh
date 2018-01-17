@@ -47,7 +47,7 @@ fi
 
 
 ###### Python Dependencies
-echo "[*] Installing dependencies for Python3"
+echo "[*] Installing dependencies for Python"
 pip install -r requirements.txt
 #echo "[*] Installing dependencies for Python3"
 #pip3 install -r requirements.txt
@@ -63,7 +63,7 @@ echo "[*] Creating Caddyfile"
 echo "$HOSTNAME {" > Caddyfile
 echo "    proxy / localhost:5000" >> Caddyfile
 echo "}" >> Caddyfile
-
+cat Caddyfile
 
 ###### Services
 echo "[*] Creating log files"
@@ -73,7 +73,7 @@ echo "Created logmapper-caddy.log" > log/logmapper-caddy.log
 
 ###### Add environment variables to services
 echo "[*] Adding variables to services"
-sed '/#LM_CONF/a LM_INSTALL_LOC="$LM_INSTALL_LOC"\nLM_MAPPER_USER="$LM_MAPPER_USER"' services/logmapper-web.service
+sed '/#LM_CONF/a LM_INSTALL_LOC="$LM_INSTALL_LOC"\nLM_MAPPER_USER="$LM_MAPPER_USER"' services/logmapper-web.service > services/logmapper-web.service
 
 #Link services
 echo "[*] Adding services to rc.local"
