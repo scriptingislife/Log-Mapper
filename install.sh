@@ -3,10 +3,11 @@
 
 echo " _                  __  __                             "
 echo "| |    ___   __ _  |  \/  | __ _ _ __  _ __   ___ _ __ "
-echo "| |   / _ \ / _` | | |\/| |/ _` | '_ \| '_ \ / _ \ '__|"
+echo "| |   / _ \ / _\` | | |\/| |/ _\` | '_ \| '_ \ / _ \ '__|"
 echo "| |__| (_) | (_| | | |  | | (_| | |_) | |_) |  __/ |   "
 echo "|_____\___/ \__, | |_|  |_|\__,_| .__/| .__/ \___|_|   "
 echo "            |___/               |_|   |_|              "
+sleep 1
 
 LM_INSTALL_LOC=$PWD
 LM_MAPPER_USER=$USER
@@ -32,7 +33,7 @@ echo "[*] Loading environment variables"
 ##### Package Dependencies
 echo "[*] Installing packages"
 
-PACKAGES="python3 python-pi"
+PACKAGES="python3 python-pip"
 
 if [[ "$ID_LIKE" = "debian" ]]; then
     apt update -y
