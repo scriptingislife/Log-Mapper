@@ -9,8 +9,8 @@ echo "|_____\___/ \__, | |_|  |_|\__,_| .__/| .__/ \___|_|   "
 echo "            |___/               |_|   |_|              "
 sleep 1
 
-LM_INSTALL_LOC=$PWD
-LM_MAPPER_USER=$USER
+LM_INSTALL_LOC="$PWD"
+LM_MAPPER_USER="$USER"
 LM_ATTEMPT_DB="test.db"
 LM_STATS_DB="stats.dict"
 CONF_FILE="logmapper.conf"
@@ -30,6 +30,7 @@ echo "LM_STATS_DB=$LM_STATS_DB" >> $CONF_FILE
 echo "[*] Loading environment variables"
 . "/etc/os-release"
 . "$CONF_FILE"
+
 
 ##### Package Dependencies
 echo "[*] Installing packages"
