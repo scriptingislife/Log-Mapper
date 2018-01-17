@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 #Install and set up caddy
 echo "[*] Installing Caddy Server"
-sudo -u LM_MAPPER_USER curl https://getcaddy.com | bash -s personal
+sudo -u $LM_MAPPER_USER curl https://getcaddy.com | bash -s personal
 
 
 ###### Caddy Reverse Proxy
