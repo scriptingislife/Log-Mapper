@@ -56,12 +56,17 @@ def draw():
 
 def make_marker(map, heatmap, ip, success, country, continent, latitude, longitude):
     print("Making marker for: "+ str(ip))
-    popup_text = '''<a href="https://ipinfo.io/{}" target="_blank">{}</a><br> 
+
+    #popup_text = "<a href='https://ipinfo.io/{}' target='_blank'>{}</a><br>\nSuccess: {}<br>\nCountry: {}<br>\nContinent: {}<br>\nLatitude: {}<br>\nLongitude: {}<br>"
+    
+
+
+    popup_text = """<a href=\"https://ipinfo.io/{}\" target=\"_blank\">{}</a><br>
                     Success: {}<br>
                     Country: {}<br>
                     Continent: {}<br>
                     Latitude: {}<br>
-                    Longitude: {}<br>'''
+                    Longitude: {}<br>"""
 
     popup_text = popup_text.format(ip, ip, success, country, continent, latitude, longitude)
 
@@ -73,7 +78,7 @@ def make_marker(map, heatmap, ip, success, country, continent, latitude, longitu
     elif success == True:
         marker_color = "#53F42E"
 
-    folium.CircleMarker(location=[latitude, longitude], radius=5, color=marker_color, fill=True, popup=popup_text).add_to(map)
+    folium.CircleMarker(location=[latitude, longitude], radius=7, color=marker_color, fill=False, popup=popup_text).add_to(map)
 
     marker_color = "#3388ff"
     folium.CircleMarker(location=[latitude, longitude], radius=1, color=marker_color, fill=False, popup=popup_text).add_to(heatmap)

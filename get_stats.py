@@ -21,7 +21,7 @@ def get_attempts(db):
 def get(database, storage):
     get_db = sqlite3.connect(database)
 
-    stats = shelve.open(STATS_DATABASE)
+    stats = shelve.open(storage)
     stats['unique_ips'] = get_IPs(get_db)
     stats['unique_countries'] = get_countries(get_db)
     stats['total_attempts'] = get_attempts(get_db)
@@ -29,4 +29,5 @@ def get(database, storage):
     stats.close()
 
 if __name__ == "__main__":
-    get("test.db", path.join(app.root_path, "stats.dict"))
+    db_loc = r"{}".format(path.join(app.root_path, "stats.dict"))
+    get("test.db", db_loc)

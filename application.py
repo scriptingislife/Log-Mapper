@@ -1,6 +1,8 @@
 ######
 #Run Flask web server
-#`export FLASK_ASKK=application.py`
+#`export FLASK_ASK=application.py`
 #`flask run`
 ######
 from app import app
+
+app.run()

@@ -3,6 +3,8 @@
 *.log
 *.db
 *.key
+*.dict
+heatmap.html
 folium_map.html
 
 # Byte-compiled / optimized / DLL files

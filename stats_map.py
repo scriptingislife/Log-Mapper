@@ -1,6 +1,7 @@
 ######
 #Parse log file and write data to database
 ######
+import sys
 import os
 import re
 import datetime
@@ -43,10 +44,7 @@ def getLineInfo(line):
         return None
 
     #GeoIP Lookup
-    try:
-        atm.lookup = geolite2.lookup(line_ips[0])
-    except:
-        print("ERROR: Bad IP '{}'".format(line_ips[0]))
+    atm.lookup = geolite2.lookup(line_ips[0])
     if atm.lookup == None:
         return None
 
@@ -62,15 +60,18 @@ def getLineInfo(line):
 
 
 def getAttempts(filename, lst_attempts):
-    with open(filename, 'r') as f:
-        lines = f.readlines()
-        for line in lines:
-            atm = getLineInfo(line)
-            if atm == None:
-                continue
-            lst_attempts.append(atm)
-            print(atm.summary())
-
+    try:
+        with open(filename, 'r') as f:
+            lines = f.readlines()
+            for line in lines:
+                atm = getLineInfo(line)
+                if atm == None:
+                    continue
+                lst_attempts.append(atm)
+                print(atm.summary())
+    except IOError:
+        print("IOERROR: Couldn't get {}".format(LOGFILE))
+        sys.exit()
 
 def insertAttempt(db, atm):
     db.execute("INSERT INTO MARKERS (IP, STAMP, SUCCESS, COUNTRY, CONTINENT, LATITUDE, LONGITUDE) VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}');".format(atm.ip, atm.timestamp.stamp(), atm.success, atm.lookup.country, atm.lookup.continent, atm.lookup.location[0], atm.lookup.location[1]))
