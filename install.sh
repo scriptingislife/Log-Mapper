@@ -36,7 +36,7 @@ echo "[*] Loading environment variables"
 echo "[*] Installing packages"
 
 #TODO: Manage packages for Python versions 2 and 3.
-PACKAGES="success python3-dev python-dev python3 python3-pip python-pip"
+PACKAGES="python3-dev python-dev python3 python3-pip python-pip"
 
 if [[ "$ID_LIKE" = "debian" ]]; then
     apt update -y
