@@ -4,11 +4,12 @@
 # Get function from functions library
 . /etc/init.d/functions
 
+#LM_CONF
+
 #Start the service
 start() {
     echo -n "Starting Caddy Server for  Flask server" | logger
-    cd /home/ec2-user/environment/Log-Mapper/
-    sudo -u ec2-user /usr/local/bin/caddy 1>/home/ec2-user/environment/Log-Mapper/log/logmapper-caddy.log 2>&1 &
+    sudo -u $LM_MAPPER_USER /usr/local/bin/caddy 1>"$LM_INSTALL_LOC"/log/logmapper-caddy.log 2>&1 &
     ### Create the lock file ###
     touch /var/lock/subsys/logmapper-caddy
     success $"Caddy Server for Flask server startup"
@@ -19,7 +20,7 @@ start() {
 stop() {
     echo -n "Starting Caddy Server for Flask server" | logger
     killproc logmapper-caddy
-    ### Now, delete the lock file ###
+    ### Delete the lock file ###
     rm -f /var/lock/subsys/logmapper-caddy
     echo
 }

@@ -36,7 +36,7 @@ echo "[*] Loading environment variables"
 echo "[*] Installing packages"
 
 #TODO: Manage packages for Python versions 2 and 3.
-PACKAGES="python3-dev python-dev python3 python3-pip python-pip"
+PACKAGES="success python3-dev python-dev python3 python3-pip python-pip"
 
 if [[ "$ID_LIKE" = "debian" ]]; then
     apt update -y
@@ -49,6 +49,7 @@ fi
 
 ###### Python Dependencies
 echo "[*] Installing dependencies for Python"
+pip install -r requirements.txt
 pip3 install -r requirements.txt
 #echo "[*] Installing dependencies for Python3"
 #pip3 install -r requirements.txt
@@ -72,11 +73,18 @@ mkdir log
 echo "Created logmapper-web.log" > log/logmapper-web.log
 echo "Created logmapper-caddy.log" > log/logmapper-caddy.log
 
-###### Add environment variables to services
+###### Add environment variables to services and scripts
 echo "[*] Adding variables to services"
 sed "/#LM_CONF/a LM_INSTALL_LOC='$LM_INSTALL_LOC'\nLM_MAPPER_USER='$LM_MAPPER_USER'" services/logmapper-web.service > services/logmapper-web.service.bak
 mv services/logmapper-web.service.bak services/logmapper-web.service
-chmod +x services/logmapper-web.service
+
+sed "/#LM_CONF/a LM_INSTALL_LOC='$LM_INSTALL_LOC'\nLM_MAPPER_USER='$LM_MAPPER_USER'" services/logmapper-caddy.service > services/logmapper-caddy.service.bak
+mv services/logmapper-caddy.service.bak services/logmapper-caddy.service
+chmod +x services/*.service
+
+sed "/#LM_CONF/a LM_INSTALL_LOC='$LM_INSTALL_LOC'\nLM_MAPPER_USER='$LM_MAPPER_USER'" update.sh > update.sh.bak
+mv update.sh.bak update.sh
+chmod +x update.sh
 
 #Link services
 echo "[*] Adding services to rc.local"
@@ -96,11 +104,16 @@ crontab logmapper.cron
 rm logmapper.cron
 
 
+#Give user permissions instead of root
 chown -R $LM_MAPPER_USER:$LM_MAPPER_USER $LM_INSTALL_LOC
 
-echo "[*] All set up. Go to https://www.duckdns.org/ to set up a free domain name. Otherwise, configure Caddyfile with your domain name. Then run `caddy` to register your domain with Let's Encrpt."
+
+#Install complete
+echo ""
+echo "[*] All set up. Go to https://www.duckdns.org/ to set up a free domain name. Otherwise, configure Caddyfile with your domain name. Then run \`caddy\` to register your domain with Let's Encrpt."
 echo "[*] Press enter to run the update script for the first time..."
 read temp
+
 
 #Run script for first time
 bash $LM_INSTALL_LOC/update.sh

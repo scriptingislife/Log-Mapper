@@ -3,6 +3,8 @@
 . "/etc/os-release"
 . "logmapper.conf"
 
+#LM_CONF
+
 if [[ "$ID_LIKE" = "debian" ]]; then
 	echo "Copying /var/log/auth.log"
 	sudo cp /var/log/auth.log "$LM_INSTALL_LOC/auth.log"
