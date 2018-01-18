@@ -12,7 +12,8 @@ start() {
     sudo -u $LM_MAPPER_USER /usr/local/bin/caddy 1>"$LM_INSTALL_LOC"/log/logmapper-caddy.log 2>&1 &
     ### Create the lock file ###
     touch /var/lock/subsys/logmapper-caddy
-    success $"Caddy Server for Flask server startup"
+    #success $"Caddy Server for Flask server startup"
+    echo "OK."
     echo
 }
 

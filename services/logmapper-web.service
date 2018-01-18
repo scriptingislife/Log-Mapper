@@ -15,7 +15,8 @@ start() {
         
         ### Create the lock file ###
         touch /var/lock/subsys/logmapper-web
-        success $"Log Mapper Flask server startup"
+        #success $"Log Mapper Flask server startup"
+        echo "OK."
         echo
 }
 

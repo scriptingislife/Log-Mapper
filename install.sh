@@ -50,7 +50,7 @@ fi
 ###### Python Dependencies
 echo "[*] Installing dependencies for Python"
 pip install -r requirements.txt
-pip3 install -r requirements.txt
+pip3 install flask
 #echo "[*] Installing dependencies for Python3"
 #pip3 install -r requirements.txt
 
@@ -112,7 +112,7 @@ chown -R $LM_MAPPER_USER:$LM_MAPPER_USER $LM_INSTALL_LOC
 echo ""
 echo "[*] All set up. Go to https://www.duckdns.org/ to set up a free domain name. Otherwise, configure Caddyfile with your domain name. Then run \`caddy\` to register your domain with Let's Encrpt."
 echo "[*] Press enter to run the update script for the first time..."
-read temp
+read nothing
 
 
 #Run script for first time
