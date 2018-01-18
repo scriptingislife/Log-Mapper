@@ -35,7 +35,8 @@ echo "[*] Loading environment variables"
 ##### Package Dependencies
 echo "[*] Installing packages"
 
-PACKAGES="python3-dev python-dev python3 python-pip"
+#TODO: Manage packages for Python versions 2 and 3.
+PACKAGES="python3-dev python-dev python3 python3-pip python-pip"
 
 if [[ "$ID_LIKE" = "debian" ]]; then
     apt update -y
@@ -48,7 +49,7 @@ fi
 
 ###### Python Dependencies
 echo "[*] Installing dependencies for Python"
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 #echo "[*] Installing dependencies for Python3"
 #pip3 install -r requirements.txt
 
