@@ -73,8 +73,9 @@ echo "Created logmapper-caddy.log" > log/logmapper-caddy.log
 
 ###### Add environment variables to services
 echo "[*] Adding variables to services"
-sed '/#LM_CONF/a LM_INSTALL_LOC="$LM_INSTALL_LOC"\nLM_MAPPER_USER="$LM_MAPPER_USER"' services/logmapper-web.service > services/logmapper-web.service.bak
+sed "/#LM_CONF/a LM_INSTALL_LOC='$LM_INSTALL_LOC'\nLM_MAPPER_USER='$LM_MAPPER_USER'" services/logmapper-web.service > services/logmapper-web.service.bak
 mv services/logmapper-web.service.bak services/logmapper-web.service
+chmod +x services/logmapper-web.service
 
 #Link services
 echo "[*] Adding services to rc.local"
