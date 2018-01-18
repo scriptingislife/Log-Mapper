@@ -2,3 +2,4 @@ python-geoip-geolite2
 folium
 slacker
 pytz
+flask
