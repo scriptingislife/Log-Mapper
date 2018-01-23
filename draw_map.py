@@ -61,7 +61,7 @@ def make_marker(map, heatmap, ip, success, country, continent, latitude, longitu
     
 
 
-    popup_text = """<a href=\"https://www.censys.io/ipv4/{}\" target=\"_blank\">{}</a><br>
+    popup_text = """<a href=\"https://www.shodan.io/host/{}\" target=\"_blank\">{}</a><br>
                     Success: {}<br>
                     Country: {}<br>
                     Continent: {}<br>
