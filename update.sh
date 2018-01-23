@@ -13,7 +13,8 @@ elif [[ "$ID_LIKE" = "rhel fedora" ]]; then
 	sudo cp /var/log/secure "$LM_INSTALL_LOC/auth.log"
 fi
 
-chmod 444 auth.log
+chown $LM_MAPPER_USER:$LM_MAPPER_USER auth.log
+chmod 400 auth.log
 
 cd $LM_INSTALL_LOC
 sudo -u $LM_MAPPER_USER python "$LM_INSTALL_LOC/stats_map.py"
