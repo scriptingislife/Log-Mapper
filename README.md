@@ -8,4 +8,4 @@ BeautifulSoup `pip install bs4`
 
 MaxMindDB `pip install python-geoip-geolite2`
 
-![Example Map](https://puu.sh/u5UAd/2bbed8f306.png "Example Map")
+![Example Map](https://lambda.sx/WhO.png "Example Map")
