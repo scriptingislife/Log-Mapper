@@ -49,7 +49,10 @@ def getLineInfo(line):
         return None
 
     #Determine if a failure or successful login
-    if "fail" in line.lower():
+    line_lower = line.lower()
+    fail_keywords = ["fail", "invalid", "preauth"]
+    if any(elm in line_lower for elm in fail_keywords):
+#    if ("fail" in line.lower()) or ("invalid" in line.lower()):
         atm.success = 0
     elif "accept" in line.lower():
         atm.success = 1
