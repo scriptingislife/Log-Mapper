@@ -33,8 +33,10 @@ class Attempt(object):
     def summary(self):
         if self.lookup == None:
             print("Uhhhh...")
+            return
         if self.timestamp == None:
             print("Uhhhh....")
+            return
         success_hr = ""
         if self.success == 0:
             success_hr = "FAIL"
