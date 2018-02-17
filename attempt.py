@@ -11,8 +11,8 @@ def print_header():
     header += lineup("SUCCESS", 10)
     header += lineup("COUNTRY", 10)
     header += lineup("CONTINENT", 10)
-    #header += lineup("DIVISION", 10) 
-    header += lineup("LATITUDE", 10) 
+    #header += lineup("DIVISION", 10)
+    header += lineup("LATITUDE", 10)
     header += lineup("LONGITUDE", 10)
     return header
 
@@ -31,24 +31,27 @@ class Attempt(object):
         pass
 
     def summary(self):
-        if self.lookup == None:
+        if self.lookup is None:
             print("Uhhhh...")
-            return ""
-        if self.timestamp == None:
+            return
+        if self.lookup.location is None:
+            print("Uhhhh...")
+            return
+        if self.timestamp is None:
             print("Uhhhh....")
-            return ""
+            return
         success_hr = ""
         if self.success == 0:
             success_hr = "FAIL"
         else:
             success_hr = "SUCCESS"
         #print(success_hr + " from {} at {}".format(self.ip, self.timestamp.stamp()))
-        str_sum = lineup(self.ip, 20) 
+        str_sum = lineup(self.ip, 20)
         str_sum += lineup(self.timestamp.stamp(), 25)
         str_sum += lineup(success_hr, 10)
         str_sum += lineup(self.lookup.country, 10)
         str_sum += lineup(self.lookup.continent, 10)
-        #str_sum += lineup(iter(self.lookup.subdivisions).next(), 10) 
-        str_sum += lineup(self.lookup.location[0], 10) 
+        #str_sum += lineup(iter(self.lookup.subdivisions).next(), 10)
+        str_sum += lineup(self.lookup.location[0], 10)
         str_sum += lineup(self.lookup.location[1], 10)
         return str_sum
