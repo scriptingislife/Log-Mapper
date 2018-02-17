@@ -35,7 +35,7 @@ def getLineInfo(line):
         month_hr = spline[0]
         day = spline[1]
         time = spline[2].split(":")
-        
+
         stamp = timestamp.Timestamp(timestamp.month_num(month_hr), day, DATE.year, time[0], time[1], time[2])
 
         atm.ip = line_ips[0]
@@ -44,7 +44,10 @@ def getLineInfo(line):
         return None
 
     #GeoIP Lookup
-    atm.lookup = geolite2.lookup(line_ips[0])
+    try:
+        atm.lookup = geolite2.lookup(line_ips[0])
+    except:
+        return None
     if atm.lookup == None:
         return None
 
@@ -58,7 +61,7 @@ def getLineInfo(line):
         atm.success = 1
     else:
         return None
-    
+
     return atm
 
 
